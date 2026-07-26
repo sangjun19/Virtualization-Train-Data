@@ -1,0 +1,6 @@
+	.file	"abc336_yuyu_1815_49300179_in_abc336_yyeastyy_49286158_vir.c"
+	.text
+	.globl	main
+	.p2align	4
+	.type	main,@function
+main:

@@ -1,0 +1,6 @@
+	.file	"abc336_zemu_52806125_in_abc336_zephyr_49278700_vir.c"
+	.text
+	.globl	main
+	.p2align	4
+	.type	main,@function
+main:

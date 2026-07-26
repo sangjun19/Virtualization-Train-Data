@@ -1,0 +1,9 @@
+.LBB0_27:
+	movq	-808(%rbp), %rax
+	addq	$1, %rax
+	movq	%rax, -808(%rbp)
+	movq	-816(%rbp), %rax
+	cvttsd2si	(%rax), %ecx
+	movq	-816(%rbp), %rax
+	movl	%ecx, (%rax)
+	jmp	.LBB0_31

@@ -1,0 +1,48 @@
+	movb	$56, s+68(%rip)
+	movb	$49, s+69(%rip)
+	movb	$54, s+70(%rip)
+	movb	$52, s+71(%rip)
+	movb	$48, s+72(%rip)
+	movb	$54, s+73(%rip)
+	movb	$50, s+74(%rip)
+	movb	$56, s+75(%rip)
+	movb	$54, s+76(%rip)
+	movb	$50, s+77(%rip)
+	movb	$48, s+78(%rip)
+	movb	$56, s+79(%rip)
+	movb	$57, s+80(%rip)
+	movb	$57, s+81(%rip)
+	movb	$56, s+82(%rip)
+	movb	$54, s+83(%rip)
+	movb	$50, s+84(%rip)
+	movb	$56, s+85(%rip)
+	movb	$48, s+86(%rip)
+	movb	$51, s+87(%rip)
+	movb	$52, s+88(%rip)
+	movb	$56, s+89(%rip)
+	movb	$50, s+90(%rip)
+	movb	$53, s+91(%rip)
+	movb	$51, s+92(%rip)
+	movb	$52, s+93(%rip)
+	movb	$50, s+94(%rip)
+	movb	$49, s+95(%rip)
+	movb	$49, s+96(%rip)
+	movb	$55, s+97(%rip)
+	movb	$48, s+98(%rip)
+	movb	$54, s+99(%rip)
+	movb	$55, s+100(%rip)
+	movb	$57, s+101(%rip)
+	movb	$0, s+102(%rip)
+# %bb.6:
+	jmp	.LBB0_7
+.LBB0_7:
+	jmp	.LBB0_8
+.LBB0_8:
+	movl	-8(%rbp), %eax
+	movl	%eax, _TIG_IZ_0ZYy_argc(%rip)
+	movq	-16(%rbp), %rax
+	movq	%rax, _TIG_IZ_0ZYy_argv(%rip)
+	movq	-24(%rbp), %rax
+	movq	%rax, _TIG_IZ_0ZYy_envp(%rip)
+# %bb.9:
+	jmp	.LBB0_10

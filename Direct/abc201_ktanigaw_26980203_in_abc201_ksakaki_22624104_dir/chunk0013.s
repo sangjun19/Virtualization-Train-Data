@@ -1,0 +1,4 @@
+.LBB0_19:
+	movq	-1016776(%rbp), %rax
+	addq	$8, %rax
+	movq	%rax, -1016776(%rbp)

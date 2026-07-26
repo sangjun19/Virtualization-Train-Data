@@ -1,0 +1,16 @@
+.LBB0_14:
+	movq	-728(%rbp), %rax
+	addq	$1, %rax
+	movq	%rax, -728(%rbp)
+	movq	-736(%rbp), %rax
+	movl	(%rax), %eax
+	movq	-736(%rbp), %rcx
+	movl	-16(%rcx), %ecx
+	sarl	%cl, %eax
+	movl	%eax, %ecx
+	movq	-736(%rbp), %rax
+	movl	%ecx, -16(%rax)
+	movq	-736(%rbp), %rax
+	addq	$-16, %rax
+	movq	%rax, -736(%rbp)
+	jmp	.LBB0_41

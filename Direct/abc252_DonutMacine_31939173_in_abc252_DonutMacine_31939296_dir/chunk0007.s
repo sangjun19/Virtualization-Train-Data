@@ -1,0 +1,6 @@
+.Ltmp4:
+.LBB0_13:
+	movq	-3048(%rbp), %rax
+	addq	$8, %rax
+	movq	%rax, -3048(%rbp)
+	jmp	.LBB0_23

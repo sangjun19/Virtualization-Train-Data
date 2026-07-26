@@ -1,0 +1,66 @@
+	.quad	.Ltmp11
+	.quad	8
+	.quad	.Ltmp3
+	.quad	.Ltmp9
+	.quad	0
+	.quad	.Ltmp1
+	.quad	.Ltmp8
+	.quad	3
+	.quad	.Ltmp0
+	.quad	10
+	.quad	.Ltmp13
+	.quad	0
+	.quad	.Ltmp15
+	.quad	.Ltmp11
+	.quad	8
+	.quad	.Ltmp3
+	.quad	.Ltmp12
+	.quad	.Ltmp0
+	.quad	13
+	.quad	.Ltmp13
+	.quad	0
+	.quad	.Ltmp15
+	.quad	.Ltmp9
+	.quad	9
+	.quad	.Ltmp11
+	.quad	8
+	.quad	.Ltmp3
+	.quad	.Ltmp2
+	.quad	.Ltmp12
+	.quad	.Ltmp0
+	.quad	1
+	.quad	.Ltmp11
+	.quad	8
+	.quad	.Ltmp13
+	.quad	0
+	.quad	.Ltmp15
+	.quad	.Ltmp3
+	.quad	.Ltmp9
+	.quad	10
+	.quad	.Ltmp5
+	.quad	.Ltmp12
+	.quad	.Ltmp7
+	.quad	0
+	.quad	.Ltmp6
+	.quad	528
+	.quad	.Ltmp10
+	.quad	.Ltmp6
+	.quad	536
+	.quad	.Ltmp11
+	.quad	8
+	.quad	.Ltmp3
+	.quad	.Ltmp12
+	.quad	.Ltmp4
+	.quad	1
+	.quad	.Ltmp0
+	.quad	1
+	.quad	.Ltmp0
+	.quad	1
+	.quad	.Ltmp14
+	.size	.L__const.main._TIG_VZ_ukPc_1_main_Region_$array_inline_4, 472
+
+	.type	_TIG_IZ_ukPc_argc,@object
+	.bss
+	.globl	_TIG_IZ_ukPc_argc
+	.p2align	2, 0x0
+_TIG_IZ_ukPc_argc:

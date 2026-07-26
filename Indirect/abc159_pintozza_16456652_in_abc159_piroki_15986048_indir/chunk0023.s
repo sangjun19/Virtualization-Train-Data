@@ -1,0 +1,48 @@
+.LBB0_28:
+# %bb.29:
+	leaq	.L.str.1(%rip), %rdi
+	leaq	-36(%rbp), %rsi
+	leaq	-40(%rbp), %rdx
+	movb	$0, %al
+	callq	__isoc99_scanf@PLT
+	movl	-36(%rbp), %eax
+	addl	-40(%rbp), %eax
+	movl	%eax, -2836(%rbp)
+	movl	-2836(%rbp), %eax
+	cmpl	$2, %eax
+	jg	.LBB0_31
+# %bb.30:
+	leaq	.L.str.2(%rip), %rdi
+	movb	$0, %al
+	callq	printf@PLT
+	jmp	.LBB0_32
+.LBB0_31:
+	movl	-36(%rbp), %eax
+	movl	-36(%rbp), %ecx
+	subl	$1, %ecx
+	imull	%ecx, %eax
+	movl	$2, %ecx
+	cltd
+	idivl	%ecx
+	movl	%eax, -44(%rbp)
+	movl	-40(%rbp), %eax
+	movl	-40(%rbp), %ecx
+	subl	$1, %ecx
+	imull	%ecx, %eax
+	movl	$2, %ecx
+	cltd
+	idivl	%ecx
+	movl	%eax, -48(%rbp)
+	movl	-44(%rbp), %eax
+	addl	-48(%rbp), %eax
+	movl	%eax, -52(%rbp)
+	movl	-52(%rbp), %esi
+	leaq	.L.str.3(%rip), %rdi
+	movb	$0, %al
+	callq	printf@PLT
+.LBB0_32:
+	xorl	%eax, %eax
+	addq	$2848, %rsp
+	popq	%rbp
+	.cfi_def_cfa %rsp, 8
+	retq

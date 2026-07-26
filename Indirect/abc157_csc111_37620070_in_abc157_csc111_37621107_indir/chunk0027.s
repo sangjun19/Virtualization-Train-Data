@@ -1,0 +1,54 @@
+	movl	-88(%rbp), %eax
+	movl	%eax, -2944(%rbp)
+	movl	-2944(%rbp), %eax
+	cmpl	$3, %eax
+	jge	.LBB0_54
+# %bb.48:                               #   in Loop: Header=BB0_47 Depth=2
+	movl	$0, -92(%rbp)
+.LBB0_49:
+	movl	-92(%rbp), %eax
+	movl	%eax, -2948(%rbp)
+	movl	-2948(%rbp), %eax
+	cmpl	$3, %eax
+	jge	.LBB0_53
+# %bb.50:                               #   in Loop: Header=BB0_49 Depth=3
+	movl	-84(%rbp), %eax
+	movl	%eax, -2952(%rbp)
+	movslq	-88(%rbp), %rcx
+	leaq	-80(%rbp), %rax
+	imulq	$12, %rcx, %rcx
+	addq	%rcx, %rax
+	movslq	-92(%rbp), %rcx
+	movl	(%rax,%rcx,4), %eax
+	movl	%eax, -2956(%rbp)
+	movl	-2956(%rbp), %ecx
+	movl	-2952(%rbp), %eax
+	cmpl	%ecx, %eax
+	jne	.LBB0_52
+# %bb.51:                               #   in Loop: Header=BB0_49 Depth=3
+	movslq	-88(%rbp), %rcx
+	leaq	-144(%rbp), %rax
+	imulq	$12, %rcx, %rcx
+	addq	%rcx, %rax
+	movslq	-92(%rbp), %rcx
+	movl	$1, (%rax,%rcx,4)
+.LBB0_52:
+	movl	-92(%rbp), %eax
+	addl	$1, %eax
+	movl	%eax, -92(%rbp)
+	jmp	.LBB0_49
+.LBB0_53:
+	movl	-88(%rbp), %eax
+	addl	$1, %eax
+	movl	%eax, -88(%rbp)
+	jmp	.LBB0_47
+.LBB0_54:
+	movl	-96(%rbp), %eax
+	addl	$1, %eax
+	movl	%eax, -96(%rbp)
+	jmp	.LBB0_45
+.LBB0_55:
+	movl	$0, -88(%rbp)
+.LBB0_56:
+	movl	-88(%rbp), %eax
+	movl	%eax, -2960(%rbp)

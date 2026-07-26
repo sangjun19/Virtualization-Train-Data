@@ -1,0 +1,6 @@
+	.file	"abc336_kitamu_49404508_in_abc336_klu2200030108_49308073_vir.c"
+	.text
+	.globl	main
+	.p2align	4
+	.type	main,@function
+main:

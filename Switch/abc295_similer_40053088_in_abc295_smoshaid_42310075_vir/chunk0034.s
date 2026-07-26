@@ -1,0 +1,15 @@
+.LBB0_34:
+	movq	-1000010760(%rbp), %rax
+	addq	$1, %rax
+	movq	%rax, -1000010760(%rbp)
+	movq	-1000010760(%rbp), %rax
+	movb	(%rax), %cl
+	movq	-1000010768(%rbp), %rax
+	movb	%cl, 16(%rax)
+	movq	-1000010768(%rbp), %rax
+	addq	$16, %rax
+	movq	%rax, -1000010768(%rbp)
+	movq	-1000010760(%rbp), %rax
+	addq	$4, %rax
+	movq	%rax, -1000010760(%rbp)
+	jmp	.LBB0_44

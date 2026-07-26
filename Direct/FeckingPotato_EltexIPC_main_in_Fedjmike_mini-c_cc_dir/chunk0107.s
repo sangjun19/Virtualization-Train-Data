@@ -1,0 +1,16 @@
+	.addrsig_sym label_no
+	.addrsig_sym local_no
+	.addrsig_sym decl_module
+	.addrsig_sym decl_param
+	.addrsig_sym token
+	.addrsig_sym token_int
+	.addrsig_sym _TIG_IZ_57Tx_argc
+	.addrsig_sym _TIG_IZ_57Tx_argv
+	.addrsig_sym _TIG_IZ_57Tx_envp
+	.addrsig_sym _TIG_VZ_57Tx_1_main_Region_$strings
+	.addrsig_sym buflength
+	.addrsig_sym curch
+	.addrsig_sym token_char
+	.addrsig_sym token_ident
+	.addrsig_sym token_other
+	.addrsig_sym token_str

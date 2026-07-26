@@ -1,0 +1,47 @@
+	movb	$-97, _TIG_VZ_15If_1_main_Region_$array+51(%rip)
+	movb	$4, _TIG_VZ_15If_1_main_Region_$array+52(%rip)
+	movb	$0, _TIG_VZ_15If_1_main_Region_$array+53(%rip)
+	movb	$0, _TIG_VZ_15If_1_main_Region_$array+54(%rip)
+	movb	$0, _TIG_VZ_15If_1_main_Region_$array+55(%rip)
+	movb	$-97, _TIG_VZ_15If_1_main_Region_$array+56(%rip)
+	movb	$19, _TIG_VZ_15If_1_main_Region_$array+57(%rip)
+	movb	$0, _TIG_VZ_15If_1_main_Region_$array+58(%rip)
+	movb	$0, _TIG_VZ_15If_1_main_Region_$array+59(%rip)
+	movb	$0, _TIG_VZ_15If_1_main_Region_$array+60(%rip)
+	movb	$-74, _TIG_VZ_15If_1_main_Region_$array+61(%rip)
+	movb	$1, _TIG_VZ_15If_1_main_Region_$array+62(%rip)
+	movb	$0, _TIG_VZ_15If_1_main_Region_$array+63(%rip)
+	movb	$0, _TIG_VZ_15If_1_main_Region_$array+64(%rip)
+	movb	$0, _TIG_VZ_15If_1_main_Region_$array+65(%rip)
+	movb	$-97, _TIG_VZ_15If_1_main_Region_$array+66(%rip)
+	movb	$-67, _TIG_VZ_15If_1_main_Region_$array+67(%rip)
+	movb	$-1, _TIG_VZ_15If_1_main_Region_$array+68(%rip)
+	movb	$-1, _TIG_VZ_15If_1_main_Region_$array+69(%rip)
+	movb	$-1, _TIG_VZ_15If_1_main_Region_$array+70(%rip)
+	movb	$-97, _TIG_VZ_15If_1_main_Region_$array+71(%rip)
+	movb	$-72, _TIG_VZ_15If_1_main_Region_$array+72(%rip)
+	movb	$-1, _TIG_VZ_15If_1_main_Region_$array+73(%rip)
+	movb	$-1, _TIG_VZ_15If_1_main_Region_$array+74(%rip)
+	movb	$-1, _TIG_VZ_15If_1_main_Region_$array+75(%rip)
+	movb	$-97, _TIG_VZ_15If_1_main_Region_$array+76(%rip)
+	movb	$4, _TIG_VZ_15If_1_main_Region_$array+77(%rip)
+	movb	$0, _TIG_VZ_15If_1_main_Region_$array+78(%rip)
+	movb	$0, _TIG_VZ_15If_1_main_Region_$array+79(%rip)
+	movb	$0, _TIG_VZ_15If_1_main_Region_$array+80(%rip)
+	movb	$-3, _TIG_VZ_15If_1_main_Region_$array+81(%rip)
+# %bb.4:
+	leaq	.L.str.2(%rip), %rax
+	movq	%rax, _TIG_VZ_15If_1_main_Region_$strings(%rip)
+# %bb.5:
+	jmp	.LBB1_6
+.LBB1_6:
+	jmp	.LBB1_7
+.LBB1_7:
+	movl	-8(%rbp), %eax
+	movl	%eax, _TIG_IZ_15If_argc(%rip)
+	movq	-16(%rbp), %rax
+	movq	%rax, _TIG_IZ_15If_argv(%rip)
+	movq	-24(%rbp), %rax
+	movq	%rax, _TIG_IZ_15If_envp(%rip)
+# %bb.8:
+	jmp	.LBB1_9

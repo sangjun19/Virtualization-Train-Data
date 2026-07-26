@@ -1,0 +1,1 @@
+	movq	%rcx, (%rax)

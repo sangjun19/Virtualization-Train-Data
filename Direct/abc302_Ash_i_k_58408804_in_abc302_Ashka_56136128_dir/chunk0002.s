@@ -1,0 +1,32 @@
+.LBB0_8:
+	leaq	.L.str.1(%rip), %rdi
+	leaq	-32(%rbp), %rsi
+	leaq	-40(%rbp), %rdx
+	movb	$0, %al
+	callq	__isoc99_scanf@PLT
+	leaq	-32(%rbp), %rax
+	movq	%rax, -72(%rbp)
+	leaq	-40(%rbp), %rax
+	movq	%rax, -80(%rbp)
+	leaq	-640(%rbp), %rax
+	addq	$16, %rax
+	movq	%rax, -1320(%rbp)
+	leaq	-1312(%rbp), %rax
+	movq	%rax, -648(%rbp)
+	leaq	-640(%rbp), %rax
+	addq	$8, %rax
+	movq	%rax, -1328(%rbp)
+	leaq	-80(%rbp), %rcx
+	movq	-1328(%rbp), %rax
+	movq	%rcx, (%rax)
+	leaq	-640(%rbp), %rax
+	movq	%rax, -1328(%rbp)
+	leaq	-72(%rbp), %rcx
+	movq	-1328(%rbp), %rax
+	movq	%rcx, (%rax)
+	movq	-648(%rbp), %rax
+	movq	(%rax), %rax
+	movq	%rax, -1344(%rbp)
+	movq	-1344(%rbp), %rax
+	movq	%rax, -1336(%rbp)
+	jmp	.LBB0_38

@@ -1,0 +1,17 @@
+.LBB0_14:
+	movq	-664(%rbp), %rax
+	addq	$1, %rax
+	movq	%rax, -664(%rbp)
+	movq	-672(%rbp), %rax
+	movsd	(%rax), %xmm0
+	movq	-672(%rbp), %rax
+	ucomisd	-16(%rax), %xmm0
+	setae	%al
+	andb	$1, %al
+	movzbl	%al, %ecx
+	movq	-672(%rbp), %rax
+	movl	%ecx, -16(%rax)
+	movq	-672(%rbp), %rax
+	addq	$-16, %rax
+	movq	%rax, -672(%rbp)
+	jmp	.LBB0_41

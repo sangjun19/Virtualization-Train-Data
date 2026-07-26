@@ -1,0 +1,8 @@
+.LBB0_10:
+	movq	-744(%rbp), %rax
+	movzbl	(%rax), %eax
+	movl	%eax, -780(%rbp)
+	movl	-780(%rbp), %eax
+	subl	$5, %eax
+	je	.LBB0_27
+	jmp	.LBB0_45

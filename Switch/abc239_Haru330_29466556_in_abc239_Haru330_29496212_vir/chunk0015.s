@@ -1,0 +1,9 @@
+.LBB2_16:
+	movq	-760(%rbp), %rax
+	incq	%rax
+	movq	%rax, -760(%rbp)
+	movq	-768(%rbp), %rax
+	movq	(%rax), %rcx
+	fldt	(%rcx)
+	fstpt	(%rax)
+	jmp	.LBB2_38

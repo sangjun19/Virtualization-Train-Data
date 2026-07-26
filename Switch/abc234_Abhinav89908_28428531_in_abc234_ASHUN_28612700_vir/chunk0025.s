@@ -1,0 +1,5 @@
+.LBB1_26:
+	movl	-144(%rbp), %edi
+	callq	f
+	movl	%eax, -140(%rbp)
+	jmp	.LBB1_30

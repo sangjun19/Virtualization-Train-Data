@@ -1,0 +1,19 @@
+.LBB0_8:
+	leaq	-48(%rbp), %rax
+	movq	%rax, -72(%rbp)
+	leaq	-640(%rbp), %rax
+	addq	$8, %rax
+	movq	%rax, -1048(%rbp)
+	leaq	-1040(%rbp), %rax
+	movq	%rax, -648(%rbp)
+	leaq	-640(%rbp), %rax
+	movq	%rax, -1056(%rbp)
+	leaq	-72(%rbp), %rcx
+	movq	-1056(%rbp), %rax
+	movq	%rcx, (%rax)
+	movq	-648(%rbp), %rax
+	movq	(%rax), %rax
+	movq	%rax, -1080(%rbp)
+	movq	-1080(%rbp), %rax
+	movq	%rax, -1072(%rbp)
+	jmp	.LBB0_33

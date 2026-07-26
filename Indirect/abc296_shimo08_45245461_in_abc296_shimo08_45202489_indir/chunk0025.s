@@ -1,0 +1,21 @@
+.Ltmp11:
+.LBB0_21:
+	movq	-968(%rbp), %rax
+	incq	%rax
+	movq	%rax, -968(%rbp)
+	movq	-968(%rbp), %rax
+	movl	(%rax), %eax
+	movl	%eax, -3132(%rbp)
+	subl	$1, %eax
+	je	.LBB0_24
+	jmp	.LBB0_65
+.LBB0_65:
+	movl	-3132(%rbp), %eax
+	subl	$2, %eax
+	je	.LBB0_23
+	jmp	.LBB0_66
+.LBB0_66:
+	movl	-3132(%rbp), %eax
+	subl	$3, %eax
+	jne	.LBB0_25
+	jmp	.LBB0_22

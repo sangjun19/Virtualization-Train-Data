@@ -1,0 +1,9 @@
+.LBB0_25:
+	movq	-200664(%rbp), %rax
+	addq	$1, %rax
+	movq	%rax, -200664(%rbp)
+	movq	-200672(%rbp), %rax
+	movq	(%rax), %rax
+	movl	(%rax), %ecx
+	movq	-200672(%rbp), %rax
+	movl	%ecx, (%rax)

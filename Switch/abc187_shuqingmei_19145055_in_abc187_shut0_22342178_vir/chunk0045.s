@@ -1,0 +1,6 @@
+.LBB0_41:
+	movq	-8176(%rbp), %rdi
+	movq	-8168(%rbp), %rsi
+	movq	-8160(%rbp), %rdx
+	movb	$0, %al
+	callq	__isoc99_scanf@PLT

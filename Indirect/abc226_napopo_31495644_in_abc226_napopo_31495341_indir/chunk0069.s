@@ -1,0 +1,12 @@
+	.addrsig_sym free
+	.addrsig_sym printf
+	.addrsig_sym __isoc99_scanf
+	.addrsig_sym g_dict
+	.addrsig_sym _TIG_IZ_LdyL_argc
+	.addrsig_sym _TIG_IZ_LdyL_argv
+	.addrsig_sym _TIG_IZ_LdyL_envp
+	.addrsig_sym _TIG_VZ_LdyL_1_main_Region_$array
+	.addrsig_sym _TIG_VZ_LdyL_1_main_Region_$strings
+	.addrsig_sym g_N
+	.addrsig_sym g_X
+	.addrsig_sym g_Y

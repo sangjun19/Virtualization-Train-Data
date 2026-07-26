@@ -1,0 +1,6 @@
+.LBB0_16:
+	movq	-920(%rbp), %rdi
+	movq	-912(%rbp), %rsi
+	movb	$0, %al
+	callq	__isoc99_scanf@PLT
+	jmp	.LBB0_18

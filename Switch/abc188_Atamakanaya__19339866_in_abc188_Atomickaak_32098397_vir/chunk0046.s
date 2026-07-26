@@ -1,0 +1,9 @@
+.LBB0_32:
+	movq	-1325304(%rbp), %rax
+	addq	$1, %rax
+	movq	%rax, -1325304(%rbp)
+	movq	-1325312(%rbp), %rax
+	cvttsd2si	(%rax), %ecx
+	movq	-1325312(%rbp), %rax
+	movl	%ecx, (%rax)
+	jmp	.LBB0_49

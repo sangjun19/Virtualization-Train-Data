@@ -1,0 +1,56 @@
+	.quad	.Ltmp8
+	.quad	.Ltmp10
+	.quad	.Ltmp12
+	.quad	.Ltmp5
+	.quad	5
+	.quad	.Ltmp2
+	.quad	1
+	.quad	.Ltmp2
+	.quad	1
+	.quad	.Ltmp0
+	.size	.L__const.main._TIG_VZ_OIoo_1_main_Region_$array_inline_12, 1184
+
+	.type	_TIG_IZ_OIoo_argc,@object
+	.bss
+	.globl	_TIG_IZ_OIoo_argc
+	.p2align	2, 0x0
+_TIG_IZ_OIoo_argc:
+	.long	0
+	.size	_TIG_IZ_OIoo_argc, 4
+
+	.type	_TIG_IZ_OIoo_argv,@object
+	.globl	_TIG_IZ_OIoo_argv
+	.p2align	3, 0x0
+_TIG_IZ_OIoo_argv:
+	.quad	0
+	.size	_TIG_IZ_OIoo_argv, 8
+
+	.type	_TIG_IZ_OIoo_envp,@object
+	.globl	_TIG_IZ_OIoo_envp
+	.p2align	3, 0x0
+_TIG_IZ_OIoo_envp:
+	.quad	0
+	.size	_TIG_IZ_OIoo_envp, 8
+
+	.type	.L.str,@object
+	.section	.rodata.cst4,"aM",@progbits,4
+.L.str:
+	.asciz	"%d\000"
+	.size	.L.str, 4
+
+	.type	_TIG_VZ_OIoo_1_main_Region_$strings,@object
+	.bss
+	.globl	_TIG_VZ_OIoo_1_main_Region_$strings
+	.p2align	3, 0x0
+_TIG_VZ_OIoo_1_main_Region_$strings:
+	.quad	0
+	.size	_TIG_VZ_OIoo_1_main_Region_$strings, 8
+
+	.type	.L.str.1,@object
+	.section	.rodata.str1.1,"aMS",@progbits,1
+.L.str.1:
+	.asciz	"%d"
+	.size	.L.str.1, 3
+
+	.type	.L.str.2,@object
+.L.str.2:

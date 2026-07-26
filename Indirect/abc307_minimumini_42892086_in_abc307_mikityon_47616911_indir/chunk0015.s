@@ -1,0 +1,24 @@
+.Ltmp5:
+.LBB0_15:
+	movq	-5752(%rbp), %rax
+	addq	$1, %rax
+	movq	%rax, -5752(%rbp)
+	movq	-5760(%rbp), %rax
+	movl	-16(%rax), %eax
+	movq	-5760(%rbp), %rcx
+	cmpl	(%rcx), %eax
+	sete	%al
+	andb	$1, %al
+	movzbl	%al, %ecx
+	movq	-5760(%rbp), %rax
+	movl	%ecx, -16(%rax)
+	movq	-5760(%rbp), %rax
+	addq	$-16, %rax
+	movq	%rax, -5760(%rbp)
+	movq	-5752(%rbp), %rax
+	movzbl	(%rax), %eax
+	movq	-7808(%rbp,%rax,8), %rax
+	movq	%rax, -7872(%rbp)
+	movq	-7872(%rbp), %rax
+	movq	%rax, -7824(%rbp)
+	jmp	.LBB0_60

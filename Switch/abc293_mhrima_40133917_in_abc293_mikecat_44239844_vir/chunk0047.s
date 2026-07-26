@@ -1,0 +1,9 @@
+	.addrsig_sym __isoc99_scanf
+	.addrsig_sym printf
+	.addrsig_sym strlen
+	.addrsig_sym puts
+	.addrsig_sym _TIG_IZ_pidb_argc
+	.addrsig_sym _TIG_IZ_pidb_argv
+	.addrsig_sym _TIG_IZ_pidb_envp
+	.addrsig_sym _TIG_VZ_pidb_1_main_Region_$array
+	.addrsig_sym _TIG_VZ_pidb_1_main_Region_$strings

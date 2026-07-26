@@ -1,0 +1,9 @@
+.LBB1_14:
+	movq	-8776(%rbp), %rax
+	addq	$1, %rax
+	movq	%rax, -8776(%rbp)
+	movq	-8784(%rbp), %rax
+	movsbl	(%rax), %ecx
+	movq	-8784(%rbp), %rax
+	movl	%ecx, (%rax)
+	jmp	.LBB1_42

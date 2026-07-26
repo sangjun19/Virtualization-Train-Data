@@ -1,0 +1,6 @@
+	.file	"abc335_liyanhong_49578486_in_abc335_liyanhong_49576891_vir.c"
+	.text
+	.globl	main
+	.p2align	4
+	.type	main,@function
+main:

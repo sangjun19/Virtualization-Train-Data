@@ -1,0 +1,5 @@
+.LBB0_16:
+	movq	-88(%rbp), %rdi
+	movb	$0, %al
+	callq	system@PLT
+	jmp	.LBB0_19

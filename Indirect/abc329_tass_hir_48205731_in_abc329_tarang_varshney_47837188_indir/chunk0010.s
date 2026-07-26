@@ -1,0 +1,6 @@
+.Ltmp3:
+.LBB0_13:
+	movq	-10664(%rbp), %rax
+	addq	$1, %rax
+	movq	%rax, -10664(%rbp)
+	jmp	.LBB0_39

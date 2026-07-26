@@ -1,0 +1,6 @@
+.LBB17_70:
+	movq	-8616(%rbp), %rdi
+	movq	-8608(%rbp), %rsi
+	movb	$0, %al
+	callq	printf@PLT
+	jmp	.LBB17_120

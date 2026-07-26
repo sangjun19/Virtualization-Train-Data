@@ -1,0 +1,67 @@
+	.quad	.Ltmp7
+	.quad	0
+	.quad	.Ltmp6
+	.quad	.Ltmp12
+	.quad	520
+	.quad	.Ltmp2
+	.quad	.Ltmp1
+	.quad	0
+	.quad	.Ltmp11
+	.quad	.Ltmp12
+	.quad	528
+	.quad	.Ltmp2
+	.quad	.Ltmp4
+	.quad	1
+	.quad	.Ltmp1
+	.quad	0
+	.quad	.Ltmp11
+	.quad	.Ltmp13
+	.quad	1
+	.quad	.Ltmp1
+	.quad	0
+	.quad	.Ltmp11
+	.quad	.Ltmp9
+	.quad	.Ltmp8
+	.quad	.Ltmp0
+	.quad	.Ltmp7
+	.quad	3
+	.quad	.Ltmp6
+	.quad	.Ltmp12
+	.quad	536
+	.quad	.Ltmp2
+	.quad	.Ltmp12
+	.quad	544
+	.quad	.Ltmp1
+	.quad	0
+	.quad	.Ltmp11
+	.quad	.Ltmp9
+	.quad	.Ltmp13
+	.quad	2
+	.quad	.Ltmp5
+	.quad	.Ltmp0
+	.quad	.Ltmp4
+	.quad	2
+	.quad	.Ltmp10
+	.quad	1
+	.quad	.Ltmp10
+	.quad	1
+	.quad	.Ltmp3
+	.size	.L__const.main._TIG_VZ_CU9p_1_main_Region_$array_inline_6, 384
+
+	.type	BN_Asc,@object
+	.local	BN_Asc
+	.comm	BN_Asc,1600000,16
+	.type	BN_Desc,@object
+	.local	BN_Desc
+	.comm	BN_Desc,1600000,16
+	.type	PBHeap_Asc_Idx,@object
+	.local	PBHeap_Asc_Idx
+	.comm	PBHeap_Asc_Idx,1600000,16
+	.type	PBHeap_Desc_Idx,@object
+	.local	PBHeap_Desc_Idx
+	.comm	PBHeap_Desc_Idx,1600000,16
+	.type	_TIG_IZ_CU9p_argc,@object
+	.bss
+	.globl	_TIG_IZ_CU9p_argc
+	.p2align	2, 0x0
+_TIG_IZ_CU9p_argc:

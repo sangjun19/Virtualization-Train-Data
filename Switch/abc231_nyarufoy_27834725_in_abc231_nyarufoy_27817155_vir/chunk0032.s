@@ -1,0 +1,47 @@
+	movl	$0, candidates+1548(%rip)
+	movb	$0, candidates+1552(%rip)
+	movb	$0, candidates+1553(%rip)
+	movb	$0, candidates+1554(%rip)
+	movb	$0, candidates+1555(%rip)
+	movb	$0, candidates+1556(%rip)
+	movb	$0, candidates+1557(%rip)
+	movb	$0, candidates+1558(%rip)
+	movb	$0, candidates+1559(%rip)
+	movb	$0, candidates+1560(%rip)
+	movb	$0, candidates+1561(%rip)
+	movl	$0, candidates+1564(%rip)
+	movb	$0, candidates+1568(%rip)
+	movb	$0, candidates+1569(%rip)
+	movb	$0, candidates+1570(%rip)
+	movb	$0, candidates+1571(%rip)
+	movb	$0, candidates+1572(%rip)
+	movb	$0, candidates+1573(%rip)
+	movb	$0, candidates+1574(%rip)
+	movb	$0, candidates+1575(%rip)
+	movb	$0, candidates+1576(%rip)
+	movb	$0, candidates+1577(%rip)
+	movl	$0, candidates+1580(%rip)
+	movb	$0, candidates+1584(%rip)
+	movb	$0, candidates+1585(%rip)
+	movb	$0, candidates+1586(%rip)
+	movb	$0, candidates+1587(%rip)
+	movb	$0, candidates+1588(%rip)
+	movb	$0, candidates+1589(%rip)
+	movb	$0, candidates+1590(%rip)
+	movb	$0, candidates+1591(%rip)
+	movb	$0, candidates+1592(%rip)
+	movb	$0, candidates+1593(%rip)
+	movl	$0, candidates+1596(%rip)
+# %bb.6:
+	jmp	.LBB0_7
+.LBB0_7:
+	jmp	.LBB0_8
+.LBB0_8:
+	movl	-8(%rbp), %eax
+	movl	%eax, _TIG_IZ_NbYc_argc(%rip)
+	movq	-16(%rbp), %rax
+	movq	%rax, _TIG_IZ_NbYc_argv(%rip)
+	movq	-24(%rbp), %rax
+	movq	%rax, _TIG_IZ_NbYc_envp(%rip)
+# %bb.9:
+	jmp	.LBB0_10

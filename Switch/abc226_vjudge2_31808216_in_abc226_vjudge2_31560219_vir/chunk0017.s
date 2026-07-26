@@ -1,0 +1,4 @@
+.LBB0_20:
+	movsd	-144(%rbp), %xmm0
+	callq	round@PLT
+	movsd	%xmm0, -136(%rbp)

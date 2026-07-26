@@ -1,0 +1,7 @@
+.LBB0_10:
+	movl	$2, %edi
+	movl	$31, %esi
+	movb	$0, %al
+	callq	pow@PLT
+	movl	%eax, -172(%rbp)
+	jmp	.LBB0_17

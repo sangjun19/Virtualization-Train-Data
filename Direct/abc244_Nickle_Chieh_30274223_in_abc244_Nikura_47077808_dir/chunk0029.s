@@ -1,0 +1,53 @@
+# %bb.44:                               #   in Loop: Header=BB0_37 Depth=1
+	movl	-44(%rbp), %eax
+	addl	$-1, %eax
+	movl	%eax, -44(%rbp)
+	jmp	.LBB0_48
+.LBB0_45:
+	movl	-52(%rbp), %eax
+	movl	%eax, -101740(%rbp)
+	movl	-101740(%rbp), %eax
+	cmpl	$3, %eax
+	jne	.LBB0_47
+# %bb.46:                               #   in Loop: Header=BB0_37 Depth=1
+	movl	-48(%rbp), %eax
+	addl	$1, %eax
+	movl	%eax, -48(%rbp)
+.LBB0_47:
+.LBB0_48:
+.LBB0_49:
+.LBB0_50:
+	jmp	.LBB0_54
+.LBB0_51:
+	movslq	-100068(%rbp), %rax
+	movsbl	-100064(%rbp,%rax), %eax
+	movl	%eax, -101744(%rbp)
+	movl	-101744(%rbp), %eax
+	cmpl	$82, %eax
+	jne	.LBB0_53
+# %bb.52:                               #   in Loop: Header=BB0_37 Depth=1
+	movl	-52(%rbp), %eax
+	addl	$1, %eax
+	movl	%eax, -52(%rbp)
+	movl	-52(%rbp), %eax
+	movl	$4, %ecx
+	cltd
+	idivl	%ecx
+	movl	%edx, -52(%rbp)
+.LBB0_53:
+.LBB0_54:
+	movl	-100068(%rbp), %eax
+	addl	$1, %eax
+	movl	%eax, -100068(%rbp)
+	jmp	.LBB0_37
+.LBB0_55:
+	movl	-44(%rbp), %esi
+	movl	-48(%rbp), %edx
+	leaq	.L.str.3(%rip), %rdi
+	movb	$0, %al
+	callq	printf@PLT
+	xorl	%eax, %eax
+	addq	$101760, %rsp
+	popq	%rbp
+	.cfi_def_cfa %rsp, 8
+	retq

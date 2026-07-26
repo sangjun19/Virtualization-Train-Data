@@ -1,0 +1,6 @@
+.LBB0_11:
+	movsd	-96(%rbp), %xmm0
+	movsd	.LCPI0_0(%rip), %xmm1
+	callq	pow@PLT
+	movsd	%xmm0, -88(%rbp)
+	jmp	.LBB0_14

@@ -1,0 +1,21 @@
+.Ltmp4:
+.LBB0_17:
+	movq	-1600664(%rbp), %rax
+	addq	$1, %rax
+	movq	%rax, -1600664(%rbp)
+	movq	-1600672(%rbp), %rax
+	movsd	(%rax), %xmm0
+	movq	-1600672(%rbp), %rax
+	mulsd	-16(%rax), %xmm0
+	movq	-1600672(%rbp), %rax
+	movsd	%xmm0, -16(%rax)
+	movq	-1600672(%rbp), %rax
+	addq	$-16, %rax
+	movq	%rax, -1600672(%rbp)
+	movq	-1600664(%rbp), %rax
+	movzbl	(%rax), %eax
+	movq	-1602720(%rbp,%rax,8), %rax
+	movq	%rax, -1602792(%rbp)
+	movq	-1602792(%rbp), %rax
+	movq	%rax, -1602736(%rbp)
+	jmp	.LBB0_39

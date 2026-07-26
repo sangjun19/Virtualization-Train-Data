@@ -1,0 +1,4 @@
+.LBB0_19:
+	movq	-384(%rbp), %rdi
+	callq	strlen@PLT
+	movq	%rax, -376(%rbp)

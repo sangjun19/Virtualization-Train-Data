@@ -1,0 +1,53 @@
+	movb	$-68, _TIG_VZ_WEiU_1_main_Region_$array+201(%rip)
+	movb	$-78, _TIG_VZ_WEiU_1_main_Region_$array+202(%rip)
+	movb	$-80, _TIG_VZ_WEiU_1_main_Region_$array+203(%rip)
+	movb	$94, _TIG_VZ_WEiU_1_main_Region_$array+204(%rip)
+	movb	$-74, _TIG_VZ_WEiU_1_main_Region_$array+205(%rip)
+	movb	$2, _TIG_VZ_WEiU_1_main_Region_$array+206(%rip)
+	movb	$0, _TIG_VZ_WEiU_1_main_Region_$array+207(%rip)
+	movb	$0, _TIG_VZ_WEiU_1_main_Region_$array+208(%rip)
+	movb	$0, _TIG_VZ_WEiU_1_main_Region_$array+209(%rip)
+	movb	$-97, _TIG_VZ_WEiU_1_main_Region_$array+210(%rip)
+	movb	$4, _TIG_VZ_WEiU_1_main_Region_$array+211(%rip)
+	movb	$0, _TIG_VZ_WEiU_1_main_Region_$array+212(%rip)
+	movb	$0, _TIG_VZ_WEiU_1_main_Region_$array+213(%rip)
+	movb	$0, _TIG_VZ_WEiU_1_main_Region_$array+214(%rip)
+	movb	$-97, _TIG_VZ_WEiU_1_main_Region_$array+215(%rip)
+	movb	$4, _TIG_VZ_WEiU_1_main_Region_$array+216(%rip)
+	movb	$0, _TIG_VZ_WEiU_1_main_Region_$array+217(%rip)
+	movb	$0, _TIG_VZ_WEiU_1_main_Region_$array+218(%rip)
+	movb	$0, _TIG_VZ_WEiU_1_main_Region_$array+219(%rip)
+	movb	$-3, _TIG_VZ_WEiU_1_main_Region_$array+220(%rip)
+# %bb.4:
+	leaq	.L.str(%rip), %rax
+	movq	%rax, _TIG_VZ_WEiU_1_main_Region_$strings(%rip)
+# %bb.5:
+	movl	$0, ans(%rip)
+# %bb.6:
+	movl	$0, -28(%rbp)
+.LBB0_7:
+	cmpl	$10, -28(%rbp)
+	jge	.LBB0_9
+# %bb.8:                                #   in Loop: Header=BB0_7 Depth=1
+	movslq	-28(%rbp), %rcx
+	leaq	freq(%rip), %rax
+	movl	$0, (%rax,%rcx,4)
+	movl	-28(%rbp), %eax
+	addl	$1, %eax
+	movl	%eax, -28(%rbp)
+	jmp	.LBB0_7
+.LBB0_9:
+	jmp	.LBB0_10
+.LBB0_10:
+	jmp	.LBB0_11
+.LBB0_11:
+	jmp	.LBB0_12
+.LBB0_12:
+	movl	-8(%rbp), %eax
+	movl	%eax, _TIG_IZ_WEiU_argc(%rip)
+	movq	-16(%rbp), %rax
+	movq	%rax, _TIG_IZ_WEiU_argv(%rip)
+	movq	-24(%rbp), %rax
+	movq	%rax, _TIG_IZ_WEiU_envp(%rip)
+# %bb.13:
+	jmp	.LBB0_14

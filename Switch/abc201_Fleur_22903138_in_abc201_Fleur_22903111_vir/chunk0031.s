@@ -1,0 +1,3 @@
+.LBB0_29:
+	movq	-96(%rbp), %rdi
+	callq	puts@PLT

@@ -1,0 +1,6 @@
+.LBB0_35:
+	movq	-312(%rbp), %rdi
+	movl	$82, %esi
+	callq	strchr@PLT
+	movq	%rax, -304(%rbp)
+	jmp	.LBB0_37

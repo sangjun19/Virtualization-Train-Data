@@ -1,0 +1,5 @@
+.LBB0_20:
+	movq	-272(%rbp), %rdi
+	movq	-264(%rbp), %rdx
+	movl	$99, %esi
+	callq	fgets@PLT

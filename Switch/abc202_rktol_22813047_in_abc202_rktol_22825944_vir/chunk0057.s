@@ -1,0 +1,66 @@
+.LBB0_51:
+	jmp	.LBB0_10
+.LBB0_52:
+# %bb.53:
+	leaq	.L.str.1(%rip), %rdi
+	xorl	%eax, %eax
+	leaq	-140056(%rbp), %rsi
+	callq	__isoc99_scanf@PLT
+	movslq	-140056(%rbp), %rax
+	shlq	$2, %rax
+	movabsq	$2305843009213693948, %rcx
+	andq	%rcx, %rax
+	movq	%rax, -140120(%rbp)
+	movq	-140120(%rbp), %rdx
+	addq	$15, %rdx
+	andq	$-16, %rdx
+	movq	%rsp, %rax
+	subq	%rdx, %rax
+	movq	%rax, %rsp
+	movq	%rax, -140064(%rbp)
+	movslq	-140056(%rbp), %rax
+	shlq	$2, %rax
+	andq	%rcx, %rax
+	movq	%rax, -140128(%rbp)
+	movq	-140128(%rbp), %rdx
+	addq	$15, %rdx
+	andq	$-16, %rdx
+	movq	%rsp, %rax
+	subq	%rdx, %rax
+	movq	%rax, %rsp
+	movq	%rax, -140072(%rbp)
+	movslq	-140056(%rbp), %rax
+	shlq	$2, %rax
+	andq	%rcx, %rax
+	movq	%rax, -140136(%rbp)
+	movq	-140136(%rbp), %rcx
+	addq	$15, %rcx
+	andq	$-16, %rcx
+	movq	%rsp, %rax
+	subq	%rcx, %rax
+	movq	%rax, %rsp
+	movq	%rax, -140080(%rbp)
+	movslq	-140056(%rbp), %rax
+	shlq	$5, %rax
+	addq	$32, %rax
+	shrq	$3, %rax
+	movq	%rax, -140144(%rbp)
+	movq	-140144(%rbp), %rcx
+	addq	$15, %rcx
+	andq	$-16, %rcx
+	movq	%rsp, %rax
+	subq	%rcx, %rax
+	movq	%rax, %rsp
+	movq	%rax, -140088(%rbp)
+	movq	$0, -140096(%rbp)
+	movl	$0, -140100(%rbp)
+.LBB0_54:
+	movl	-140100(%rbp), %eax
+	movl	%eax, -140868(%rbp)
+	movl	-140056(%rbp), %eax
+	addl	$1, %eax
+	movl	%eax, -140872(%rbp)
+	movl	-140872(%rbp), %ecx
+	movl	-140868(%rbp), %eax
+	cmpl	%ecx, %eax
+	jge	.LBB0_56

@@ -1,0 +1,24 @@
+.Ltmp19:
+.LBB1_34:
+	movq	-200728(%rbp), %rax
+	addq	$1, %rax
+	movq	%rax, -200728(%rbp)
+	movq	_TIG_VZ_rQjS_1_main_Region_$strings(%rip), %rcx
+	movq	-200728(%rbp), %rax
+	movslq	(%rax), %rax
+	addq	%rax, %rcx
+	movq	-200736(%rbp), %rax
+	movq	%rcx, 16(%rax)
+	movq	-200736(%rbp), %rax
+	addq	$16, %rax
+	movq	%rax, -200736(%rbp)
+	movq	-200728(%rbp), %rax
+	addq	$4, %rax
+	movq	%rax, -200728(%rbp)
+	movq	-200728(%rbp), %rax
+	movzbl	(%rax), %eax
+	movq	-202784(%rbp,%rax,8), %rax
+	movq	%rax, -202968(%rbp)
+	movq	-202968(%rbp), %rax
+	movq	%rax, -202800(%rbp)
+	jmp	.LBB1_44

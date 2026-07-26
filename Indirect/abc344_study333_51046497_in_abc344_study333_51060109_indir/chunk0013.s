@@ -1,0 +1,18 @@
+.Ltmp1:
+.LBB0_11:
+	movq	-2504(%rbp), %rax
+	incq	%rax
+	movq	%rax, -2504(%rbp)
+	movq	-2504(%rbp), %rax
+	movl	(%rax), %eax
+	decl	%eax
+	movl	%eax, %ecx
+	movq	%rcx, -4600(%rbp)
+	subl	$3, %eax
+	ja	.LBB0_16
+# %bb.53:                               #   in Loop: Header=BB0_52 Depth=1
+	movq	-4600(%rbp), %rcx
+	leaq	.LJTI0_0(%rip), %rax
+	movslq	(%rax,%rcx,4), %rcx
+	addq	%rcx, %rax
+	jmpq	*%rax

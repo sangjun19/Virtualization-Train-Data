@@ -1,0 +1,16 @@
+.Ltmp4:
+.LBB0_19:
+	movq	-696(%rbp), %rax
+	incq	%rax
+	movq	%rax, -696(%rbp)
+	movq	-696(%rbp), %rax
+	movl	(%rax), %eax
+	movl	%eax, -2812(%rbp)
+	subl	$1, %eax
+	je	.LBB0_21
+	jmp	.LBB0_41
+.LBB0_41:
+	movl	-2812(%rbp), %eax
+	subl	$2, %eax
+	jne	.LBB0_22
+	jmp	.LBB0_20

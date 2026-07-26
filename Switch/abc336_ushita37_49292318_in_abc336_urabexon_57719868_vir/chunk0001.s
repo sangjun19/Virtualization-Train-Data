@@ -1,0 +1,6 @@
+	.file	"abc336_ushita37_49292318_in_abc336_urabexon_57719868_vir.c"
+	.text
+	.globl	main
+	.p2align	4
+	.type	main,@function
+main:

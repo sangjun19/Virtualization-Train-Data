@@ -1,0 +1,68 @@
+	movb	$0, S+1171(%rip)
+	movb	$0, S+1172(%rip)
+	movb	$0, S+1173(%rip)
+	movb	$0, S+1174(%rip)
+	movb	$0, S+1175(%rip)
+	movb	$0, S+1176(%rip)
+	movb	$0, S+1177(%rip)
+	movb	$0, S+1178(%rip)
+	movb	$0, S+1179(%rip)
+	movb	$0, S+1180(%rip)
+	movb	$0, S+1181(%rip)
+	movb	$0, S+1182(%rip)
+	movb	$0, S+1183(%rip)
+	movb	$0, S+1184(%rip)
+	movb	$0, S+1185(%rip)
+	movb	$0, S+1186(%rip)
+	movb	$0, S+1187(%rip)
+	movb	$0, S+1188(%rip)
+	movb	$0, S+1189(%rip)
+	movb	$0, S+1190(%rip)
+	movb	$0, S+1191(%rip)
+	movb	$0, S+1192(%rip)
+	movb	$0, S+1193(%rip)
+	movb	$0, S+1194(%rip)
+	movb	$0, S+1195(%rip)
+	movb	$0, S+1196(%rip)
+	movb	$0, S+1197(%rip)
+	movb	$0, S+1198(%rip)
+	movb	$0, S+1199(%rip)
+	movb	$0, S+1200(%rip)
+	movb	$0, S+1201(%rip)
+	movb	$0, S+1202(%rip)
+	movb	$0, S+1203(%rip)
+	movb	$0, S+1204(%rip)
+	movb	$0, S+1205(%rip)
+	movb	$0, S+1206(%rip)
+	movb	$0, S+1207(%rip)
+	movb	$0, S+1208(%rip)
+	movb	$0, S+1209(%rip)
+	movb	$0, S+1210(%rip)
+	movb	$0, S+1211(%rip)
+	movb	$0, S+1212(%rip)
+	movb	$0, S+1213(%rip)
+	movb	$0, S+1214(%rip)
+	movb	$0, S+1215(%rip)
+	movb	$0, S+1216(%rip)
+	movb	$0, S+1217(%rip)
+	movb	$0, S+1218(%rip)
+	movb	$0, S+1219(%rip)
+	movb	$0, S+1220(%rip)
+# %bb.6:
+	movl	$0, _TIG_IZ_EeZO_argc(%rip)
+# %bb.7:
+	movq	$0, _TIG_IZ_EeZO_argv(%rip)
+# %bb.8:
+	movq	$0, _TIG_IZ_EeZO_envp(%rip)
+# %bb.9:
+	leaq	.L.str(%rip), %rax
+	movq	%rax, _TIG_VZ_EeZO_1_main_Region_$strings(%rip)
+# %bb.10:
+	movl	$1073741824, mn(%rip)
+# %bb.11:
+	movl	$0, t(%rip)
+# %bb.12:
+	jmp	.LBB0_13
+.LBB0_13:
+	jmp	.LBB0_14
+.LBB0_14:

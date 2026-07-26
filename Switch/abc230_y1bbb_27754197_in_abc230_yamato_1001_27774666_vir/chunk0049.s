@@ -1,0 +1,4 @@
+.LBB0_44:
+	movq	-752(%rbp), %rax
+	addq	$-16, %rax
+	movq	%rax, -752(%rbp)

@@ -1,0 +1,6 @@
+	.file	"abc323_vjudge4_48450442_in_abc323_vjudge4_48449798_vir.c"
+	.text
+	.globl	main
+	.p2align	4
+	.type	main,@function
+main:

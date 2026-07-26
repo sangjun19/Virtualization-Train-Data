@@ -1,0 +1,4 @@
+.LBB0_21:
+	movq	-416(%rbp), %rdi
+	callq	atoi@PLT
+	movl	%eax, -408(%rbp)

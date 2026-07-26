@@ -1,0 +1,17 @@
+.Ltmp19:
+.LBB1_33:
+	movq	-240840(%rbp), %rax
+	addq	$8, %rax
+	movq	%rax, -240840(%rbp)
+	movq	-242264(%rbp), %rax
+	cmpl	$0, (%rax)
+	je	.LBB1_35
+# %bb.34:                               #   in Loop: Header=BB1_62 Depth=1
+	movq	-240840(%rbp), %rax
+	movl	(%rax), %ecx
+	movq	-240840(%rbp), %rax
+	movslq	%ecx, %rcx
+	shlq	$3, %rcx
+	addq	%rcx, %rax
+	movq	%rax, -240840(%rbp)
+	jmp	.LBB1_36

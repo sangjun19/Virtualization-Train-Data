@@ -1,0 +1,5 @@
+.LBB0_29:
+	movq	-8120(%rbp), %rdi
+	movl	-8112(%rbp), %esi
+	movb	$0, %al
+	callq	printf@PLT

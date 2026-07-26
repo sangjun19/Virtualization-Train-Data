@@ -1,0 +1,70 @@
+	.quad	.Ltmp5
+	.quad	15
+	.quad	.Ltmp10
+	.quad	16
+	.quad	.Ltmp11
+	.quad	10
+	.quad	.Ltmp10
+	.quad	16
+	.quad	.Ltmp14
+	.quad	.Ltmp13
+	.quad	.Ltmp11
+	.quad	1
+	.quad	.Ltmp12
+	.quad	.Ltmp15
+	.quad	.Ltmp5
+	.quad	1
+	.quad	.Ltmp2
+	.quad	5
+	.quad	.Ltmp9
+	.quad	.Ltmp7
+	.quad	560
+	.quad	.Ltmp8
+	.quad	.Ltmp7
+	.quad	568
+	.quad	.Ltmp10
+	.quad	16
+	.quad	.Ltmp14
+	.quad	.Ltmp15
+	.quad	.Ltmp1
+	.quad	2
+	.quad	.Ltmp5
+	.quad	1
+	.quad	.Ltmp5
+	.quad	1
+	.quad	.Ltmp0
+	.size	.L__const.main._TIG_VZ_0cPj_1_main_Region_$array_inline_7, 832
+
+	.type	_TIG_IZ_0cPj_argc,@object
+	.bss
+	.globl	_TIG_IZ_0cPj_argc
+	.p2align	2, 0x0
+_TIG_IZ_0cPj_argc:
+	.long	0
+	.size	_TIG_IZ_0cPj_argc, 4
+
+	.type	_TIG_IZ_0cPj_argv,@object
+	.globl	_TIG_IZ_0cPj_argv
+	.p2align	3, 0x0
+_TIG_IZ_0cPj_argv:
+	.quad	0
+	.size	_TIG_IZ_0cPj_argv, 8
+
+	.type	_TIG_IZ_0cPj_envp,@object
+	.globl	_TIG_IZ_0cPj_envp
+	.p2align	3, 0x0
+_TIG_IZ_0cPj_envp:
+	.quad	0
+	.size	_TIG_IZ_0cPj_envp, 8
+
+	.type	.L.str,@object
+	.section	.rodata,"a",@progbits
+.L.str:
+	.asciz	"%d%d\000%d\n\000"
+	.size	.L.str, 10
+
+	.type	_TIG_VZ_0cPj_1_main_Region_$strings,@object
+	.bss
+	.globl	_TIG_VZ_0cPj_1_main_Region_$strings
+	.p2align	3, 0x0
+_TIG_VZ_0cPj_1_main_Region_$strings:

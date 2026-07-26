@@ -1,0 +1,42 @@
+# %bb.37:                               #   in Loop: Header=BB0_36 Depth=2
+	movslq	-856(%rbp), %rax
+	movl	-848(%rbp,%rax,4), %edi
+	movslq	-856(%rbp), %rax
+	movl	-448(%rbp,%rax,4), %esi
+	movslq	-860(%rbp), %rax
+	movl	-848(%rbp,%rax,4), %edx
+	movslq	-860(%rbp), %rax
+	movl	-448(%rbp,%rax,4), %ecx
+	callq	distance
+	movsd	%xmm0, -880(%rbp)
+	movsd	-880(%rbp), %xmm0
+	movsd	%xmm0, -2736(%rbp)
+	movsd	-872(%rbp), %xmm0
+	movsd	%xmm0, -2744(%rbp)
+	movsd	-2744(%rbp), %xmm1
+	movsd	-2736(%rbp), %xmm0
+	ucomisd	%xmm1, %xmm0
+	jbe	.LBB0_39
+# %bb.38:                               #   in Loop: Header=BB0_36 Depth=2
+	movsd	-880(%rbp), %xmm0
+	movsd	%xmm0, -872(%rbp)
+.LBB0_39:
+	movl	-860(%rbp), %eax
+	addl	$1, %eax
+	movl	%eax, -860(%rbp)
+	jmp	.LBB0_36
+.LBB0_40:
+	movl	-856(%rbp), %eax
+	addl	$1, %eax
+	movl	%eax, -856(%rbp)
+	jmp	.LBB0_34
+.LBB0_41:
+	movsd	-872(%rbp), %xmm0
+	leaq	.L.str.3(%rip), %rdi
+	movb	$1, %al
+	callq	printf@PLT
+	xorl	%eax, %eax
+	addq	$2752, %rsp
+	popq	%rbp
+	.cfi_def_cfa %rsp, 8
+	retq

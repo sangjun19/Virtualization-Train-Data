@@ -1,0 +1,62 @@
+.LBB0_72:
+# %bb.73:
+	movl	$0, -116(%rbp)
+	movl	$0, -120(%rbp)
+.LBB0_74:
+	movl	-120(%rbp), %eax
+	movl	%eax, -3236(%rbp)
+	movl	-3236(%rbp), %eax
+	cmpl	$8, %eax
+	jge	.LBB0_78
+# %bb.75:                               #   in Loop: Header=BB0_74 Depth=1
+	movslq	-120(%rbp), %rax
+	leaq	-112(%rbp), %rsi
+	shlq	$2, %rax
+	addq	%rax, %rsi
+	leaq	.L.str.1(%rip), %rdi
+	movb	$0, %al
+	callq	__isoc99_scanf@PLT
+	movslq	-120(%rbp), %rax
+	movl	-112(%rbp,%rax,4), %eax
+	movl	$25, %ecx
+	cltd
+	idivl	%ecx
+	orl	-116(%rbp), %edx
+	movl	%edx, -116(%rbp)
+	movslq	-120(%rbp), %rax
+	cmpl	$675, -112(%rbp,%rax,4)
+	setg	%al
+	andb	$1, %al
+	movzbl	%al, %eax
+	orl	-116(%rbp), %eax
+	movl	%eax, -116(%rbp)
+	movslq	-120(%rbp), %rax
+	cmpl	$100, -112(%rbp,%rax,4)
+	setl	%al
+	andb	$1, %al
+	movzbl	%al, %eax
+	orl	-116(%rbp), %eax
+	movl	%eax, -116(%rbp)
+	movl	-120(%rbp), %eax
+	movl	%eax, -3240(%rbp)
+	movl	-3240(%rbp), %eax
+	cmpl	$0, %eax
+	je	.LBB0_77
+# %bb.76:                               #   in Loop: Header=BB0_74 Depth=1
+	movslq	-120(%rbp), %rax
+	movl	-112(%rbp,%rax,4), %eax
+	movl	-120(%rbp), %ecx
+	subl	$1, %ecx
+	movslq	%ecx, %rcx
+	cmpl	-112(%rbp,%rcx,4), %eax
+	setl	%al
+	andb	$1, %al
+	movzbl	%al, %eax
+	orl	-116(%rbp), %eax
+	movl	%eax, -116(%rbp)
+.LBB0_77:
+	movl	-120(%rbp), %eax
+	addl	$1, %eax
+	movl	%eax, -120(%rbp)
+	jmp	.LBB0_74
+.LBB0_78:

@@ -1,0 +1,57 @@
+.LBB0_39:
+	jmp	.LBB0_10
+.LBB0_40:
+# %bb.41:
+	leaq	.L.str.1(%rip), %rdi
+	leaq	-56(%rbp), %rsi
+	movb	$0, %al
+	callq	__isoc99_scanf@PLT
+	movsd	.LCPI0_2(%rip), %xmm0
+	movsd	.LCPI0_1(%rip), %xmm1
+	callq	pow@PLT
+	movsd	%xmm0, -64(%rbp)
+	cvtsi2sdq	-56(%rbp), %xmm0
+	movsd	%xmm0, -736(%rbp)
+	movsd	-64(%rbp), %xmm0
+	movsd	%xmm0, -744(%rbp)
+	movsd	-744(%rbp), %xmm1
+	movsd	-736(%rbp), %xmm0
+	ucomisd	%xmm1, %xmm0
+	jb	.LBB0_46
+# %bb.42:
+	movsd	.LCPI0_0(%rip), %xmm0
+	movsd	.LCPI0_1(%rip), %xmm1
+	callq	pow@PLT
+	movsd	%xmm0, -72(%rbp)
+	cvtsi2sdq	-56(%rbp), %xmm0
+	movsd	%xmm0, -760(%rbp)
+	movsd	-72(%rbp), %xmm0
+	movsd	.LCPI0_3(%rip), %xmm1
+	subsd	%xmm1, %xmm0
+	movsd	%xmm0, -752(%rbp)
+	movsd	-760(%rbp), %xmm1
+	movsd	-752(%rbp), %xmm0
+	ucomisd	%xmm1, %xmm0
+	jb	.LBB0_44
+# %bb.43:
+	leaq	.L.str.2(%rip), %rdi
+	movb	$0, %al
+	callq	printf@PLT
+	jmp	.LBB0_45
+.LBB0_44:
+	leaq	.L.str.3(%rip), %rdi
+	movb	$0, %al
+	callq	printf@PLT
+.LBB0_45:
+	jmp	.LBB0_47
+.LBB0_46:
+	leaq	.L.str.3(%rip), %rdi
+	movb	$0, %al
+	callq	printf@PLT
+.LBB0_47:
+	xorl	%eax, %eax
+	addq	$768, %rsp
+	popq	%rbp
+	.cfi_def_cfa %rsp, 8
+	retq
+.Lfunc_end0:

@@ -1,0 +1,22 @@
+.LBB0_34:
+# %bb.35:
+	leaq	.L.str.1(%rip), %rdi
+	leaq	-56(%rbp), %rsi
+	movb	$0, %al
+	callq	__isoc99_scanf@PLT
+	movsd	-56(%rbp), %xmm0
+	movsd	.LCPI0_0(%rip), %xmm1
+	addsd	-56(%rbp), %xmm1
+	mulsd	%xmm1, %xmm0
+	movb	$1, %al
+	callq	sqrt@PLT
+	movl	%eax, -60(%rbp)
+	movl	-60(%rbp), %esi
+	leaq	.L.str.1(%rip), %rdi
+	movb	$0, %al
+	callq	printf@PLT
+	xorl	%eax, %eax
+	addq	$1760, %rsp
+	popq	%rbp
+	.cfi_def_cfa %rsp, 8
+	retq

@@ -1,0 +1,10 @@
+.Ltmp1:
+.LBB0_11:
+	movq	-712(%rbp), %rax
+	incq	%rax
+	movq	%rax, -712(%rbp)
+	movq	-712(%rbp), %rax
+	movl	(%rax), %eax
+	subl	$1, %eax
+	jne	.LBB0_13
+	jmp	.LBB0_12

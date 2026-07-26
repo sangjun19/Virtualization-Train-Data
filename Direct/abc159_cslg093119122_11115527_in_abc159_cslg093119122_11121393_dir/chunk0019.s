@@ -1,0 +1,16 @@
+.Ltmp12:
+.LBB0_25:
+	movq	-792(%rbp), %rax
+	addq	$8, %rax
+	movq	%rax, -792(%rbp)
+	movq	-1368(%rbp), %rax
+	movq	(%rax), %rax
+	movsd	(%rax), %xmm0
+	movq	-1368(%rbp), %rax
+	movsd	%xmm0, (%rax)
+	movq	-792(%rbp), %rax
+	movq	(%rax), %rax
+	movq	%rax, -1496(%rbp)
+	movq	-1496(%rbp), %rax
+	movq	%rax, -1384(%rbp)
+	jmp	.LBB0_55

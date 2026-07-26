@@ -1,0 +1,4 @@
+.LBB0_15:
+	callq	getchar@PLT
+	movl	%eax, -104(%rbp)
+	jmp	.LBB0_18

@@ -1,0 +1,7 @@
+.LBB0_52:
+.LBB0_53:
+	xorl	%eax, %eax
+	addq	$3088, %rsp
+	popq	%rbp
+	.cfi_def_cfa %rsp, 8
+	retq

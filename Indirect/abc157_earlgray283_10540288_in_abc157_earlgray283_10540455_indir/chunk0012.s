@@ -1,0 +1,16 @@
+.Ltmp4:
+.LBB4_16:
+	movq	-824(%rbp), %rax
+	addq	$1, %rax
+	movq	%rax, -824(%rbp)
+	movq	-832(%rbp), %rax
+	cmpl	$0, (%rax)
+	je	.LBB4_18
+# %bb.17:                               #   in Loop: Header=BB4_87 Depth=1
+	movq	-824(%rbp), %rax
+	movl	(%rax), %ecx
+	movq	-824(%rbp), %rax
+	movslq	%ecx, %rcx
+	addq	%rcx, %rax
+	movq	%rax, -824(%rbp)
+	jmp	.LBB4_19

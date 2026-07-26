@@ -1,0 +1,9 @@
+	movl	-40064(%rbp), %esi
+	leaq	.L.str.1(%rip), %rdi
+	movb	$0, %al
+	callq	printf@PLT
+	xorl	%eax, %eax
+	addq	$42960, %rsp
+	popq	%rbp
+	.cfi_def_cfa %rsp, 8
+	retq

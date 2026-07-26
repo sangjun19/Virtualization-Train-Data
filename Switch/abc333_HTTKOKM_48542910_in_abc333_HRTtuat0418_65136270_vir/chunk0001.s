@@ -1,0 +1,6 @@
+	.file	"abc333_HTTKOKM_48542910_in_abc333_HRTtuat0418_65136270_vir.c"
+	.text
+	.globl	main
+	.p2align	4
+	.type	main,@function
+main:

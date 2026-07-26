@@ -1,0 +1,18 @@
+.LBB0_25:
+	movq	-728(%rbp), %rax
+	addq	$1, %rax
+	movq	%rax, -728(%rbp)
+	movq	-736(%rbp), %rax
+	movq	(%rax), %rcx
+	movq	-736(%rbp), %rax
+	movq	%rax, -760(%rbp)
+	movq	-16(%rax), %rax
+	cqto
+	idivq	%rcx
+	movq	%rax, %rcx
+	movq	-760(%rbp), %rax
+	movq	%rcx, -16(%rax)
+	movq	-736(%rbp), %rax
+	addq	$-16, %rax
+	movq	%rax, -736(%rbp)
+	jmp	.LBB0_43

@@ -1,0 +1,60 @@
+.LBB0_48:
+# %bb.49:
+	leaq	-60(%rbp), %rsi
+	leaq	.L.str.1(%rip), %rdi
+	movb	$0, %al
+	callq	__isoc99_scanf@PLT
+	leaq	-60(%rbp), %rdi
+	leaq	.L.str.2(%rip), %rsi
+	callq	strcmp@PLT
+	movl	%eax, -64(%rbp)
+	movl	-64(%rbp), %eax
+	movl	%eax, -4492(%rbp)
+	movl	-4492(%rbp), %eax
+	cmpl	$0, %eax
+	jne	.LBB0_51
+# %bb.50:
+	leaq	.L.str.3(%rip), %rdi
+	movb	$0, %al
+	callq	printf@PLT
+	movl	$0, -4(%rbp)
+	jmp	.LBB0_70
+.LBB0_51:
+	leaq	-60(%rbp), %rdi
+	leaq	.L.str.4(%rip), %rsi
+	callq	strcmp@PLT
+	movl	%eax, -68(%rbp)
+	movl	-68(%rbp), %eax
+	movl	%eax, -4496(%rbp)
+	movl	-4496(%rbp), %eax
+	cmpl	$0, %eax
+	jne	.LBB0_53
+# %bb.52:
+	leaq	.L.str.3(%rip), %rdi
+	movb	$0, %al
+	callq	printf@PLT
+	movl	$0, -4(%rbp)
+	jmp	.LBB0_70
+.LBB0_53:
+	leaq	-60(%rbp), %rdi
+	leaq	.L.str.5(%rip), %rsi
+	callq	strcmp@PLT
+	movl	%eax, -72(%rbp)
+	movl	-72(%rbp), %eax
+	movl	%eax, -4500(%rbp)
+	movl	-4500(%rbp), %eax
+	cmpl	$0, %eax
+	jne	.LBB0_55
+# %bb.54:
+	leaq	.L.str.3(%rip), %rdi
+	movb	$0, %al
+	callq	printf@PLT
+	movl	$0, -4(%rbp)
+	jmp	.LBB0_70
+.LBB0_55:
+	leaq	-60(%rbp), %rdi
+	leaq	.L.str.6(%rip), %rsi
+	callq	strcmp@PLT
+	movl	%eax, -76(%rbp)
+	movl	-76(%rbp), %eax
+	movl	%eax, -4504(%rbp)

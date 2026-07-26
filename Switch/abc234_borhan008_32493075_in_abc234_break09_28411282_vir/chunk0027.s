@@ -1,0 +1,6 @@
+.LBB0_14:
+	movl	-184(%rbp), %edi
+	movb	$0, %al
+	callq	wiredFunc@PLT
+	movl	%eax, -180(%rbp)
+	jmp	.LBB0_21

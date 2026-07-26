@@ -1,0 +1,9 @@
+	movq	-2840(%rbp), %rax
+	movq	%rcx, (%rax)
+	movq	-776(%rbp), %rax
+	movzbl	(%rax), %eax
+	movq	-2832(%rbp,%rax,8), %rax
+	movq	%rax, -2864(%rbp)
+	movq	-2864(%rbp), %rax
+	movq	%rax, -2856(%rbp)
+	jmp	.LBB0_40

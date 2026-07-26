@@ -1,0 +1,5 @@
+	movl	-4256(%rbp), %eax
+	addq	$4272, %rsp
+	popq	%rbp
+	.cfi_def_cfa %rsp, 8
+	retq

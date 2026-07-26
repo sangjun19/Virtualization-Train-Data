@@ -1,0 +1,26 @@
+.Ltmp14:
+.LBB0_31:
+	movq	-616(%rbp), %rax
+	addq	$1, %rax
+	movq	%rax, -616(%rbp)
+# %bb.32:
+# %bb.33:
+	leaq	.L.str.1(%rip), %rdi
+	leaq	-32(%rbp), %rsi
+	movb	$0, %al
+	callq	__isoc99_scanf@PLT
+	movl	-32(%rbp), %eax
+	movl	$100, %ecx
+	cltd
+	idivl	%ecx
+	movl	%edx, -32(%rbp)
+	movl	$100, %esi
+	subl	-32(%rbp), %esi
+	leaq	.L.str.1(%rip), %rdi
+	movb	$0, %al
+	callq	printf@PLT
+	xorl	%eax, %eax
+	addq	$2832, %rsp
+	popq	%rbp
+	.cfi_def_cfa %rsp, 8
+	retq

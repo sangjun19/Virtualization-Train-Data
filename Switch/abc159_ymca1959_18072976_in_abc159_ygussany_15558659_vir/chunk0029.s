@@ -1,0 +1,5 @@
+.LBB2_23:
+	movq	-240(%rbp), %rdi
+	movb	$0, %al
+	callq	printf@PLT
+	jmp	.LBB2_30

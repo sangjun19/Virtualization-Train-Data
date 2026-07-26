@@ -1,0 +1,56 @@
+	movb	$52, arr+58(%rip)
+	movb	$52, arr+59(%rip)
+	movb	$53, arr+60(%rip)
+	movb	$57, arr+61(%rip)
+	movb	$50, arr+62(%rip)
+	movb	$51, arr+63(%rip)
+	movb	$48, arr+64(%rip)
+	movb	$55, arr+65(%rip)
+	movb	$56, arr+66(%rip)
+	movb	$49, arr+67(%rip)
+	movb	$54, arr+68(%rip)
+	movb	$52, arr+69(%rip)
+	movb	$48, arr+70(%rip)
+	movb	$54, arr+71(%rip)
+	movb	$50, arr+72(%rip)
+	movb	$56, arr+73(%rip)
+	movb	$54, arr+74(%rip)
+	movb	$50, arr+75(%rip)
+	movb	$48, arr+76(%rip)
+	movb	$56, arr+77(%rip)
+	movb	$57, arr+78(%rip)
+	movb	$57, arr+79(%rip)
+	movb	$56, arr+80(%rip)
+	movb	$54, arr+81(%rip)
+	movb	$50, arr+82(%rip)
+	movb	$56, arr+83(%rip)
+	movb	$48, arr+84(%rip)
+	movb	$51, arr+85(%rip)
+	movb	$52, arr+86(%rip)
+	movb	$56, arr+87(%rip)
+	movb	$50, arr+88(%rip)
+	movb	$53, arr+89(%rip)
+	movb	$51, arr+90(%rip)
+	movb	$52, arr+91(%rip)
+	movb	$50, arr+92(%rip)
+	movb	$49, arr+93(%rip)
+	movb	$49, arr+94(%rip)
+	movb	$55, arr+95(%rip)
+	movb	$48, arr+96(%rip)
+	movb	$54, arr+97(%rip)
+	movb	$55, arr+98(%rip)
+	movb	$57, arr+99(%rip)
+	movb	$0, arr+100(%rip)
+# %bb.6:
+	jmp	.LBB0_7
+.LBB0_7:
+	jmp	.LBB0_8
+.LBB0_8:
+	movl	-8(%rbp), %eax
+	movl	%eax, _TIG_IZ_2PKx_argc(%rip)
+	movq	-16(%rbp), %rax
+	movq	%rax, _TIG_IZ_2PKx_argv(%rip)
+	movq	-24(%rbp), %rax
+	movq	%rax, _TIG_IZ_2PKx_envp(%rip)
+# %bb.9:
+	jmp	.LBB0_10

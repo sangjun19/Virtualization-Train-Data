@@ -1,0 +1,26 @@
+.Ltmp15:
+.LBB0_31:
+	movq	-744(%rbp), %rax
+	addq	$1, %rax
+	movq	%rax, -744(%rbp)
+	movq	-752(%rbp), %rax
+	movsd	-16(%rax), %xmm0
+	movq	-752(%rbp), %rax
+	ucomisd	(%rax), %xmm0
+	sete	%al
+	setnp	%cl
+	andb	%cl, %al
+	andb	$1, %al
+	movzbl	%al, %ecx
+	movq	-752(%rbp), %rax
+	movl	%ecx, -16(%rax)
+	movq	-752(%rbp), %rax
+	addq	$-16, %rax
+	movq	%rax, -752(%rbp)
+	movq	-744(%rbp), %rax
+	movzbl	(%rax), %eax
+	movq	-2800(%rbp,%rax,8), %rax
+	movq	%rax, -2960(%rbp)
+	movq	-2960(%rbp), %rax
+	movq	%rax, -2816(%rbp)
+	jmp	.LBB0_63

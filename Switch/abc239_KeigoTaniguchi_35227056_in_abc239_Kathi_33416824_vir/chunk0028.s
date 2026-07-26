@@ -1,0 +1,41 @@
+	.quad	0
+	.size	_TIG_VZ_Chkz_1_main_Region_$strings, 8
+
+	.type	ans,@object
+	.globl	ans
+	.p2align	3, 0x0
+ans:
+	.quad	0x0000000000000000
+	.size	ans, 8
+
+	.type	h,@object
+	.globl	h
+	.p2align	2, 0x0
+h:
+	.long	0
+	.size	h, 4
+
+	.type	.L.str.1,@object
+	.section	.rodata.str1.1,"aMS",@progbits,1
+.L.str.1:
+	.asciz	"%lf"
+	.size	.L.str.1, 4
+
+	.type	.L.str.2,@object
+.L.str.2:
+	.asciz	"%.7lf"
+	.size	.L.str.2, 6
+
+	.ident	"Ubuntu clang version 18.1.8 (++20240731025043+3b5b5c1ec4a3-1~exp1~20240731145144.92)"
+	.section	".note.GNU-stack","",@progbits
+	.addrsig
+	.addrsig_sym sqrt
+	.addrsig_sym __isoc99_scanf
+	.addrsig_sym printf
+	.addrsig_sym _TIG_IZ_Chkz_argc
+	.addrsig_sym _TIG_IZ_Chkz_argv
+	.addrsig_sym _TIG_IZ_Chkz_envp
+	.addrsig_sym _TIG_VZ_Chkz_1_main_Region_$array
+	.addrsig_sym _TIG_VZ_Chkz_1_main_Region_$strings
+	.addrsig_sym ans
+	.addrsig_sym h

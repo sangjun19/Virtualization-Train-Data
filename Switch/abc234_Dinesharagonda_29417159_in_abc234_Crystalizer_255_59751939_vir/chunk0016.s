@@ -1,0 +1,5 @@
+.LBB0_17:
+	movl	-192(%rbp), %edi
+	callq	f
+	movl	%eax, -188(%rbp)
+	jmp	.LBB0_22

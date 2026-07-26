@@ -1,0 +1,17 @@
+.LBB0_9:
+	leaq	-64(%rbp), %rsi
+	leaq	.L.str.1(%rip), %rdi
+	movb	$0, %al
+	callq	__isoc99_scanf@PLT
+	leaq	-64(%rbp), %rax
+	movq	%rax, -80(%rbp)
+	leaq	-624(%rbp), %rax
+	addq	$8, %rax
+	movq	%rax, -640(%rbp)
+	leaq	_TIG_VZ_mNbp_1_main_Region_$array(%rip), %rax
+	movq	%rax, -632(%rbp)
+	leaq	-624(%rbp), %rax
+	movq	%rax, -648(%rbp)
+	leaq	-80(%rbp), %rcx
+	movq	-648(%rbp), %rax
+	movq	%rcx, (%rax)

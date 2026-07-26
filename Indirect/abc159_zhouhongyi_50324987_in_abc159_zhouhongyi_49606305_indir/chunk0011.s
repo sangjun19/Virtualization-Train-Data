@@ -1,0 +1,69 @@
+	movb	$40, _TIG_VZ_npvt_1_main_Region_$array+615(%rip)
+	movb	$0, _TIG_VZ_npvt_1_main_Region_$array+616(%rip)
+	movb	$0, _TIG_VZ_npvt_1_main_Region_$array+617(%rip)
+	movb	$0, _TIG_VZ_npvt_1_main_Region_$array+618(%rip)
+	movb	$-117, _TIG_VZ_npvt_1_main_Region_$array+619(%rip)
+	movb	$-63, _TIG_VZ_npvt_1_main_Region_$array+620(%rip)
+	movb	$65, _TIG_VZ_npvt_1_main_Region_$array+621(%rip)
+	movb	$5, _TIG_VZ_npvt_1_main_Region_$array+622(%rip)
+	movb	$-7, _TIG_VZ_npvt_1_main_Region_$array+623(%rip)
+	movb	$-68, _TIG_VZ_npvt_1_main_Region_$array+624(%rip)
+	movb	$3, _TIG_VZ_npvt_1_main_Region_$array+625(%rip)
+	movb	$0, _TIG_VZ_npvt_1_main_Region_$array+626(%rip)
+	movb	$0, _TIG_VZ_npvt_1_main_Region_$array+627(%rip)
+	movb	$0, _TIG_VZ_npvt_1_main_Region_$array+628(%rip)
+	movb	$23, _TIG_VZ_npvt_1_main_Region_$array+629(%rip)
+	movb	$16, _TIG_VZ_npvt_1_main_Region_$array+630(%rip)
+	movb	$0, _TIG_VZ_npvt_1_main_Region_$array+631(%rip)
+	movb	$0, _TIG_VZ_npvt_1_main_Region_$array+632(%rip)
+	movb	$0, _TIG_VZ_npvt_1_main_Region_$array+633(%rip)
+	movb	$94, _TIG_VZ_npvt_1_main_Region_$array+634(%rip)
+	movb	$23, _TIG_VZ_npvt_1_main_Region_$array+635(%rip)
+	movb	$16, _TIG_VZ_npvt_1_main_Region_$array+636(%rip)
+	movb	$0, _TIG_VZ_npvt_1_main_Region_$array+637(%rip)
+	movb	$0, _TIG_VZ_npvt_1_main_Region_$array+638(%rip)
+	movb	$0, _TIG_VZ_npvt_1_main_Region_$array+639(%rip)
+	movb	$94, _TIG_VZ_npvt_1_main_Region_$array+640(%rip)
+	movb	$100, _TIG_VZ_npvt_1_main_Region_$array+641(%rip)
+	movb	$-78, _TIG_VZ_npvt_1_main_Region_$array+642(%rip)
+	movb	$1, _TIG_VZ_npvt_1_main_Region_$array+643(%rip)
+	movb	$0, _TIG_VZ_npvt_1_main_Region_$array+644(%rip)
+	movb	$0, _TIG_VZ_npvt_1_main_Region_$array+645(%rip)
+	movb	$0, _TIG_VZ_npvt_1_main_Region_$array+646(%rip)
+	movb	$-80, _TIG_VZ_npvt_1_main_Region_$array+647(%rip)
+	movb	$-74, _TIG_VZ_npvt_1_main_Region_$array+648(%rip)
+	movb	$-97, _TIG_VZ_npvt_1_main_Region_$array+649(%rip)
+	movb	$102, _TIG_VZ_npvt_1_main_Region_$array+650(%rip)
+	movb	$-1, _TIG_VZ_npvt_1_main_Region_$array+651(%rip)
+	movb	$-1, _TIG_VZ_npvt_1_main_Region_$array+652(%rip)
+	movb	$-1, _TIG_VZ_npvt_1_main_Region_$array+653(%rip)
+	movb	$-97, _TIG_VZ_npvt_1_main_Region_$array+654(%rip)
+	movb	$97, _TIG_VZ_npvt_1_main_Region_$array+655(%rip)
+	movb	$-1, _TIG_VZ_npvt_1_main_Region_$array+656(%rip)
+	movb	$-1, _TIG_VZ_npvt_1_main_Region_$array+657(%rip)
+	movb	$-1, _TIG_VZ_npvt_1_main_Region_$array+658(%rip)
+	movb	$-97, _TIG_VZ_npvt_1_main_Region_$array+659(%rip)
+	movb	$4, _TIG_VZ_npvt_1_main_Region_$array+660(%rip)
+	movb	$0, _TIG_VZ_npvt_1_main_Region_$array+661(%rip)
+	movb	$0, _TIG_VZ_npvt_1_main_Region_$array+662(%rip)
+	movb	$0, _TIG_VZ_npvt_1_main_Region_$array+663(%rip)
+	movb	$-3, _TIG_VZ_npvt_1_main_Region_$array+664(%rip)
+# %bb.4:
+	leaq	.L.str(%rip), %rax
+	movq	%rax, _TIG_VZ_npvt_1_main_Region_$strings(%rip)
+# %bb.5:
+	movl	$0, -28(%rbp)
+.LBB0_6:
+	cmpl	$200001, -28(%rbp)
+	jge	.LBB0_8
+# %bb.7:                                #   in Loop: Header=BB0_6 Depth=1
+	movslq	-28(%rbp), %rcx
+	leaq	a(%rip), %rax
+	movq	$0, (%rax,%rcx,8)
+	movl	-28(%rbp), %eax
+	addl	$1, %eax
+	movl	%eax, -28(%rbp)
+	jmp	.LBB0_6
+.LBB0_8:
+	jmp	.LBB0_9
+.LBB0_9:

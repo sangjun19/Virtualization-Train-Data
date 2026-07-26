@@ -1,0 +1,6 @@
+	.file	"abc230_hiro1729_51528941_in_abc230_hiro106_33750982_vir.c"
+	.text
+	.globl	main
+	.p2align	4
+	.type	main,@function
+main:

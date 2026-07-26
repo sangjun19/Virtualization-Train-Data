@@ -1,0 +1,17 @@
+	movq	%rax, -3320(%rbp)
+	leaq	-544(%rbp), %rcx
+	movq	-3320(%rbp), %rax
+	movq	%rcx, (%rax)
+	leaq	-1248(%rbp), %rax
+	addq	$48, %rax
+	movq	%rax, -3320(%rbp)
+	leaq	-584(%rbp), %rcx
+	movq	-3320(%rbp), %rax
+	movq	%rcx, (%rax)
+	movq	-1256(%rbp), %rax
+	movzbl	(%rax), %eax
+	movq	-3312(%rbp,%rax,8), %rax
+	movq	%rax, -3336(%rbp)
+	movq	-3336(%rbp), %rax
+	movq	%rax, -3328(%rbp)
+	jmp	.LBB0_48

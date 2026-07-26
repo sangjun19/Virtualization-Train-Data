@@ -1,0 +1,16 @@
+.Ltmp3:
+.LBB1_12:
+	movq	-984(%rbp), %rax
+	addq	$8, %rax
+	movq	%rax, -984(%rbp)
+	movq	-2344(%rbp), %rax
+	movq	(%rax), %rax
+	movl	(%rax), %ecx
+	movq	-2344(%rbp), %rax
+	movl	%ecx, (%rax)
+	movq	-984(%rbp), %rax
+	movq	(%rax), %rax
+	movq	%rax, -2400(%rbp)
+	movq	-2400(%rbp), %rax
+	movq	%rax, -2360(%rbp)
+	jmp	.LBB1_35

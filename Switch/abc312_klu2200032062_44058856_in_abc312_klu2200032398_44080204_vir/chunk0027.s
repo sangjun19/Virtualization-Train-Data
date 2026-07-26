@@ -1,0 +1,6 @@
+.LBB1_15:
+	movq	-272(%rbp), %rdi
+	movq	-264(%rbp), %rsi
+	callq	strcmp@PLT
+	movl	%eax, -256(%rbp)
+	jmp	.LBB1_30

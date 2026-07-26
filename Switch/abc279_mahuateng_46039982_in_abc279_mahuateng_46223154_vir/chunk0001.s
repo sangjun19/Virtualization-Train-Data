@@ -1,0 +1,6 @@
+	.file	"abc279_mahuateng_46039982_in_abc279_mahuateng_46223154_vir.c"
+	.text
+	.globl	main
+	.p2align	4
+	.type	main,@function
+main:

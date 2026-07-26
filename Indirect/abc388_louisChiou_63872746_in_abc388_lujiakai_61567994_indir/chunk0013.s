@@ -1,0 +1,4 @@
+.LBB0_18:
+	movl	$80, %edi
+	callq	putchar@PLT
+	jmp	.LBB0_23

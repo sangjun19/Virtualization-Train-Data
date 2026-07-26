@@ -1,0 +1,63 @@
+# %bb.41:                               #   in Loop: Header=BB0_39 Depth=3
+	movl	-48(%rbp), %esi
+	movl	-52(%rbp), %edx
+	movl	-56(%rbp), %ecx
+	leaq	.L.str.2(%rip), %rdi
+	movb	$0, %al
+	callq	printf@PLT
+.LBB0_42:
+	movl	-56(%rbp), %eax
+	addl	$1, %eax
+	movl	%eax, -56(%rbp)
+	jmp	.LBB0_39
+.LBB0_43:
+	movl	-52(%rbp), %eax
+	addl	$1, %eax
+	movl	%eax, -52(%rbp)
+	jmp	.LBB0_37
+.LBB0_44:
+	movl	-48(%rbp), %eax
+	addl	$1, %eax
+	movl	%eax, -48(%rbp)
+	jmp	.LBB0_35
+.LBB0_45:
+	xorl	%eax, %eax
+	addq	$736, %rsp
+	popq	%rbp
+	.cfi_def_cfa %rsp, 8
+	retq
+.Lfunc_end0:
+	.size	main, .Lfunc_end0-main
+	.cfi_endproc
+	.type	_TIG_IZ_Apdr_argc,@object
+	.bss
+	.globl	_TIG_IZ_Apdr_argc
+	.p2align	2, 0x0
+_TIG_IZ_Apdr_argc:
+	.long	0
+	.size	_TIG_IZ_Apdr_argc, 4
+
+	.type	_TIG_IZ_Apdr_argv,@object
+	.globl	_TIG_IZ_Apdr_argv
+	.p2align	3, 0x0
+_TIG_IZ_Apdr_argv:
+	.quad	0
+	.size	_TIG_IZ_Apdr_argv, 8
+
+	.type	_TIG_IZ_Apdr_envp,@object
+	.globl	_TIG_IZ_Apdr_envp
+	.p2align	3, 0x0
+_TIG_IZ_Apdr_envp:
+	.quad	0
+	.size	_TIG_IZ_Apdr_envp, 8
+
+	.type	_TIG_VZ_Apdr_1_main_Region_$array,@object
+	.globl	_TIG_VZ_Apdr_1_main_Region_$array
+	.p2align	4, 0x0
+_TIG_VZ_Apdr_1_main_Region_$array:
+	.zero	368
+	.size	_TIG_VZ_Apdr_1_main_Region_$array, 368
+
+	.type	.L.str,@object
+	.section	.rodata,"a",@progbits
+.L.str:

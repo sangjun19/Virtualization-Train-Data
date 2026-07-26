@@ -1,0 +1,5 @@
+.LBB0_28:
+	movq	-320(%rbp), %rdi
+	movb	$0, %al
+	callq	malloc@PLT
+	movl	%eax, -312(%rbp)

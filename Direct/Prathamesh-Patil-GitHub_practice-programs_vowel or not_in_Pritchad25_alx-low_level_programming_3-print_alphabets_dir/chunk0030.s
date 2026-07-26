@@ -1,0 +1,66 @@
+	.quad	76
+	.quad	56
+	.quad	76
+	.quad	76
+	.quad	76
+	.quad	56
+	.quad	76
+	.quad	76
+	.quad	76
+	.quad	76
+	.quad	76
+	.quad	56
+	.quad	76
+	.quad	76
+	.quad	76
+	.quad	76
+	.quad	76
+	.quad	56
+	.quad	.Ltmp7
+	.quad	20
+	.quad	.Ltmp9
+	.quad	.Ltmp0
+	.quad	544
+	.quad	.Ltmp5
+	.quad	.Ltmp0
+	.quad	552
+	.quad	.Ltmp8
+	.quad	0
+	.quad	.Ltmp10
+	.quad	.Ltmp2
+	.quad	.Ltmp6
+	.quad	.Ltmp12
+	.quad	.Ltmp4
+	.quad	3
+	.quad	.Ltmp3
+	.quad	1
+	.quad	.Ltmp3
+	.quad	19
+	.quad	.Ltmp7
+	.quad	35
+	.quad	.Ltmp9
+	.quad	.Ltmp0
+	.quad	560
+	.quad	.Ltmp5
+	.quad	.Ltmp0
+	.quad	568
+	.quad	.Ltmp8
+	.quad	0
+	.quad	.Ltmp10
+	.quad	.Ltmp2
+	.quad	.Ltmp6
+	.quad	.Ltmp12
+	.quad	.Ltmp4
+	.quad	4
+	.quad	.Ltmp3
+	.quad	1
+	.quad	.Ltmp3
+	.quad	1
+	.quad	.Ltmp1
+	.size	.L__const.main._TIG_VZ_5DpO_1_main_Region_$array_inline_9, 1024
+
+	.type	_TIG_IZ_5DpO_argc,@object
+	.bss
+	.globl	_TIG_IZ_5DpO_argc
+	.p2align	2, 0x0
+_TIG_IZ_5DpO_argc:

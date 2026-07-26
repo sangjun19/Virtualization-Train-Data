@@ -1,0 +1,36 @@
+.LBB0_46:
+# %bb.47:
+	leaq	.L.str.1(%rip), %rdi
+	leaq	-176(%rbp), %rsi
+	movb	$0, %al
+	callq	__isoc99_scanf@PLT
+	leaq	.L.str.2(%rip), %rdi
+	movb	$0, %al
+	callq	printf@PLT
+	movl	$1, -180(%rbp)
+.LBB0_48:
+	movl	-180(%rbp), %eax
+	movl	%eax, -2636(%rbp)
+	movl	-176(%rbp), %eax
+	movl	%eax, -2640(%rbp)
+	movl	-2640(%rbp), %ecx
+	movl	-2636(%rbp), %eax
+	cmpl	%ecx, %eax
+	jg	.LBB0_50
+# %bb.49:                               #   in Loop: Header=BB0_48 Depth=1
+	leaq	.L.str.3(%rip), %rdi
+	movb	$0, %al
+	callq	printf@PLT
+	movl	-180(%rbp), %eax
+	addl	$1, %eax
+	movl	%eax, -180(%rbp)
+	jmp	.LBB0_48
+.LBB0_50:
+	leaq	.L.str.4(%rip), %rdi
+	movb	$0, %al
+	callq	printf@PLT
+	xorl	%eax, %eax
+	addq	$2656, %rsp
+	popq	%rbp
+	.cfi_def_cfa %rsp, 8
+	retq

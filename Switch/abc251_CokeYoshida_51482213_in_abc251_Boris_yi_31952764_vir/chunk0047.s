@@ -1,0 +1,9 @@
+.LBB2_46:
+	movq	-712(%rbp), %rax
+	addq	$1, %rax
+	movq	%rax, -712(%rbp)
+	movq	-720(%rbp), %rax
+	movl	(%rax), %eax
+	movl	%eax, %ecx
+	movq	-720(%rbp), %rax
+	movq	%rcx, (%rax)

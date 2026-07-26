@@ -1,0 +1,16 @@
+	.addrsig_sym _TIG_IZ_vinZ_argc
+	.addrsig_sym _TIG_IZ_vinZ_argv
+	.addrsig_sym _TIG_IZ_vinZ_envp
+	.addrsig_sym _TIG_VZ_vinZ_1_main_Region_$array
+	.addrsig_sym _TIG_VZ_vinZ_1_main_Region_$strings
+	.addrsig_sym hex_tab
+	.addrsig_sym loaded_modules
+	.addrsig_sym long_tokens
+	.addrsig_sym nil
+	.addrsig_sym one_char_tokens
+	.addrsig_sym op_tab
+	.addrsig_sym opcodes
+	.addrsig_sym rerr
+	.addrsig_sym serr
+	.addrsig_sym types
+	.addrsig_sym stderr

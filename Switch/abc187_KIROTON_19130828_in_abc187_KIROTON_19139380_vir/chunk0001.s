@@ -1,0 +1,6 @@
+	.file	"abc187_KIROTON_19130828_in_abc187_KIROTON_19139380_vir.c"
+	.text
+	.globl	main
+	.p2align	4
+	.type	main,@function
+main:

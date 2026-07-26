@@ -1,0 +1,7 @@
+.LBB0_24:
+	movq	-88(%rbp), %rdi
+	movl	-80(%rbp), %esi
+	movl	-76(%rbp), %edx
+	movb	$0, %al
+	callq	printf@PLT
+	jmp	.LBB0_26

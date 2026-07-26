@@ -1,0 +1,6 @@
+.LBB0_26:
+	movq	-1336(%rbp), %rdi
+	movq	-1328(%rbp), %rsi
+	movb	$0, %al
+	callq	printf@PLT
+	jmp	.LBB0_29

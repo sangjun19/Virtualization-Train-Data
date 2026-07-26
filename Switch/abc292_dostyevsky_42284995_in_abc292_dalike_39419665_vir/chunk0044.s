@@ -1,0 +1,64 @@
+	.size	conv, .Lfunc_end1-conv
+	.cfi_endproc
+	.type	_TIG_IZ_O6VD_argc,@object
+	.bss
+	.globl	_TIG_IZ_O6VD_argc
+	.p2align	2, 0x0
+_TIG_IZ_O6VD_argc:
+	.long	0
+	.size	_TIG_IZ_O6VD_argc, 4
+
+	.type	_TIG_IZ_O6VD_argv,@object
+	.globl	_TIG_IZ_O6VD_argv
+	.p2align	3, 0x0
+_TIG_IZ_O6VD_argv:
+	.quad	0
+	.size	_TIG_IZ_O6VD_argv, 8
+
+	.type	_TIG_IZ_O6VD_envp,@object
+	.globl	_TIG_IZ_O6VD_envp
+	.p2align	3, 0x0
+_TIG_IZ_O6VD_envp:
+	.quad	0
+	.size	_TIG_IZ_O6VD_envp, 8
+
+	.type	_TIG_VZ_O6VD_1_main_Region_$array,@object
+	.globl	_TIG_VZ_O6VD_1_main_Region_$array
+	.p2align	4, 0x0
+_TIG_VZ_O6VD_1_main_Region_$array:
+	.zero	323
+	.size	_TIG_VZ_O6VD_1_main_Region_$array, 323
+
+	.type	.L.str,@object
+	.section	.rodata.cst8,"aM",@progbits,8
+.L.str:
+	.asciz	"%s\000%s\n\000"
+	.size	.L.str, 8
+
+	.type	_TIG_VZ_O6VD_1_main_Region_$strings,@object
+	.bss
+	.globl	_TIG_VZ_O6VD_1_main_Region_$strings
+	.p2align	3, 0x0
+_TIG_VZ_O6VD_1_main_Region_$strings:
+	.quad	0
+	.size	_TIG_VZ_O6VD_1_main_Region_$strings, 8
+
+	.type	.L.str.1,@object
+	.section	.rodata.str1.1,"aMS",@progbits,1
+.L.str.1:
+	.asciz	"%c"
+	.size	.L.str.1, 3
+
+	.ident	"Ubuntu clang version 18.1.8 (++20240731025043+3b5b5c1ec4a3-1~exp1~20240731145144.92)"
+	.section	".note.GNU-stack","",@progbits
+	.addrsig
+	.addrsig_sym conv
+	.addrsig_sym __isoc99_scanf
+	.addrsig_sym printf
+	.addrsig_sym gets
+	.addrsig_sym strlen
+	.addrsig_sym _TIG_IZ_O6VD_argc
+	.addrsig_sym _TIG_IZ_O6VD_argv
+	.addrsig_sym _TIG_IZ_O6VD_envp
+	.addrsig_sym _TIG_VZ_O6VD_1_main_Region_$array
+	.addrsig_sym _TIG_VZ_O6VD_1_main_Region_$strings

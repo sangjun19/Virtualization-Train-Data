@@ -1,0 +1,51 @@
+	movb	$49, -187(%rbp)
+	movb	$54, -186(%rbp)
+	movb	$52, -185(%rbp)
+	movb	$48, -184(%rbp)
+	movb	$54, -183(%rbp)
+	movb	$50, -182(%rbp)
+	movb	$56, -181(%rbp)
+	movb	$54, -180(%rbp)
+	movb	$50, -179(%rbp)
+	movb	$48, -178(%rbp)
+	movb	$56, -177(%rbp)
+	movb	$57, -176(%rbp)
+	movb	$57, -175(%rbp)
+	movb	$56, -174(%rbp)
+	movb	$54, -173(%rbp)
+	movb	$50, -172(%rbp)
+	movb	$56, -171(%rbp)
+	movb	$48, -170(%rbp)
+	movb	$51, -169(%rbp)
+	movb	$52, -168(%rbp)
+	movb	$56, -167(%rbp)
+	movb	$50, -166(%rbp)
+	movb	$53, -165(%rbp)
+	movb	$51, -164(%rbp)
+	movb	$52, -163(%rbp)
+	movb	$50, -162(%rbp)
+	movb	$49, -161(%rbp)
+	movb	$49, -160(%rbp)
+	movb	$55, -159(%rbp)
+	movb	$48, -158(%rbp)
+	movb	$54, -157(%rbp)
+	movb	$55, -156(%rbp)
+	movb	$57, -155(%rbp)
+	movb	$0, -154(%rbp)
+	movl	-152(%rbp), %eax
+	addl	$2, %eax
+	cltq
+	movb	$0, -256(%rbp,%rax)
+	leaq	-256(%rbp), %rdi
+	callq	puts@PLT
+	xorl	%eax, %eax
+	addq	$896, %rsp
+	popq	%rbp
+	.cfi_def_cfa %rsp, 8
+	retq
+.Lfunc_end0:
+	.size	main, .Lfunc_end0-main
+	.cfi_endproc
+	.section	.rodata,"a",@progbits
+	.p2align	2, 0x0
+.LJTI0_0:

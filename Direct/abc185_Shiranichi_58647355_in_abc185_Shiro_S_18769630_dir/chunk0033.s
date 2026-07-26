@@ -1,0 +1,62 @@
+.LBB4_40:
+# %bb.41:
+	leaq	.L.str.1(%rip), %rdi
+	leaq	N(%rip), %rsi
+	leaq	Q(%rip), %rdx
+	movb	$0, %al
+	callq	__isoc99_scanf@PLT
+	movl	N(%rip), %edi
+	callq	segtree
+	movq	%rax, -80(%rbp)
+	movq	-80(%rbp), %rax
+	movq	%rax, -72(%rbp)
+	movl	$0, -84(%rbp)
+.LBB4_42:
+	movl	-84(%rbp), %eax
+	movl	%eax, -3124(%rbp)
+	movl	N(%rip), %eax
+	movl	%eax, -3128(%rbp)
+	movl	-3128(%rbp), %ecx
+	movl	-3124(%rbp), %eax
+	cmpl	%ecx, %eax
+	jge	.LBB4_44
+# %bb.43:                               #   in Loop: Header=BB4_42 Depth=1
+	leaq	.L.str.2(%rip), %rdi
+	leaq	-88(%rbp), %rsi
+	movb	$0, %al
+	callq	__isoc99_scanf@PLT
+	movq	-72(%rbp), %rdi
+	movl	N(%rip), %esi
+	movl	-84(%rbp), %edx
+	movl	-88(%rbp), %ecx
+	callq	set
+	movl	-84(%rbp), %eax
+	addl	$1, %eax
+	movl	%eax, -84(%rbp)
+	jmp	.LBB4_42
+.LBB4_44:
+.LBB4_45:
+	movl	Q(%rip), %eax
+	movl	%eax, -108(%rbp)
+	movl	Q(%rip), %eax
+	addl	$-1, %eax
+	movl	%eax, Q(%rip)
+	movl	-108(%rbp), %eax
+	movl	%eax, -3132(%rbp)
+	movl	-3132(%rbp), %eax
+	cmpl	$0, %eax
+	jne	.LBB4_47
+# %bb.46:
+	jmp	.LBB4_51
+.LBB4_47:
+	leaq	.L.str.3(%rip), %rdi
+	leaq	-92(%rbp), %rsi
+	leaq	-96(%rbp), %rdx
+	leaq	-100(%rbp), %rcx
+	movb	$0, %al
+	callq	__isoc99_scanf@PLT
+	movl	-92(%rbp), %eax
+	movl	%eax, -3136(%rbp)
+	movl	-3136(%rbp), %eax
+	cmpl	$1, %eax
+	jne	.LBB4_49

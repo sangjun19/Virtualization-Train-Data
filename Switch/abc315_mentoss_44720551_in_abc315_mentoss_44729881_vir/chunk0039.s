@@ -1,0 +1,20 @@
+.LBB0_38:
+	movq	-5688(%rbp), %rax
+	incq	%rax
+	movq	%rax, -5688(%rbp)
+	movq	-5688(%rbp), %rax
+	movl	(%rax), %eax
+	movl	%eax, -5720(%rbp)
+	subl	$1, %eax
+	je	.LBB0_39
+	jmp	.LBB0_57
+.LBB0_57:
+	movl	-5720(%rbp), %eax
+	subl	$2, %eax
+	je	.LBB0_41
+	jmp	.LBB0_58
+.LBB0_58:
+	movl	-5720(%rbp), %eax
+	subl	$3, %eax
+	je	.LBB0_40
+	jmp	.LBB0_42

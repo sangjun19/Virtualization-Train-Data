@@ -1,0 +1,3 @@
+.LBB1_15:
+	movl	-320076(%rbp), %edi
+	callq	putchar@PLT

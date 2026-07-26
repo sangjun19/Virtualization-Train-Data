@@ -1,0 +1,6 @@
+	.file	"abc333_d4v41_48825764_in_abc333_corgie_54973046_vir.c"
+	.text
+	.globl	main
+	.p2align	4
+	.type	main,@function
+main:

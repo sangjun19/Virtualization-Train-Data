@@ -1,0 +1,18 @@
+.LBB0_23:
+# %bb.24:
+	movb	$0, -33(%rbp)
+	leaq	.L.str.1(%rip), %rdi
+	leaq	-32(%rbp), %rsi
+	movb	$0, %al
+	callq	__isoc99_scanf@PLT
+	movl	-32(%rbp), %eax
+	movb	%al, -34(%rbp)
+	movl	-32(%rbp), %esi
+	leaq	.L.str.2(%rip), %rdi
+	movb	$0, %al
+	callq	printf@PLT
+	xorl	%eax, %eax
+	addq	$1024, %rsp
+	popq	%rbp
+	.cfi_def_cfa %rsp, 8
+	retq

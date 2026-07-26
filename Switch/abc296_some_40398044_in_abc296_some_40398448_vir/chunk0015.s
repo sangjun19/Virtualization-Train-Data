@@ -1,0 +1,4 @@
+.LBB1_17:
+	movq	-264(%rbp), %rdi
+	movb	$0, %al
+	callq	printf@PLT

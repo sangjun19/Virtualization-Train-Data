@@ -1,0 +1,21 @@
+.Ltmp8:
+.LBB0_21:
+	movq	-632(%rbp), %rax
+	incq	%rax
+	movq	%rax, -632(%rbp)
+	movq	-632(%rbp), %rax
+	movl	(%rax), %eax
+	movl	%eax, -2772(%rbp)
+	subl	$1, %eax
+	je	.LBB0_24
+	jmp	.LBB0_39
+.LBB0_39:
+	movl	-2772(%rbp), %eax
+	subl	$2, %eax
+	je	.LBB0_23
+	jmp	.LBB0_40
+.LBB0_40:
+	movl	-2772(%rbp), %eax
+	subl	$3, %eax
+	jne	.LBB0_25
+	jmp	.LBB0_22

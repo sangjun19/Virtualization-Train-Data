@@ -1,0 +1,32 @@
+.LBB0_20:
+	movq	-632(%rbp), %rax
+	addq	$1, %rax
+	movq	%rax, -632(%rbp)
+	movq	-640(%rbp), %rax
+	movq	(%rax), %rax
+	movq	%rax, -648(%rbp)
+	movq	-640(%rbp), %rax
+	addq	$-16, %rax
+	movq	%rax, -640(%rbp)
+	movq	-632(%rbp), %rax
+	movq	4(%rax), %rax
+	movq	%rax, -656(%rbp)
+	movq	-632(%rbp), %rax
+	movq	12(%rax), %rax
+	movq	%rax, -664(%rbp)
+	movq	-632(%rbp), %rax
+	movl	(%rax), %eax
+	movl	%eax, -668(%rbp)
+	movq	-632(%rbp), %rax
+	addq	$20, %rax
+	movq	%rax, -680(%rbp)
+	movq	-648(%rbp), %rax
+	cmpq	-656(%rbp), %rax
+	jge	.LBB0_22
+# %bb.21:                               #   in Loop: Header=BB0_10 Depth=1
+	movl	-668(%rbp), %ecx
+	movq	-632(%rbp), %rax
+	movslq	%ecx, %rcx
+	addq	%rcx, %rax
+	movq	%rax, -632(%rbp)
+	jmp	.LBB0_26

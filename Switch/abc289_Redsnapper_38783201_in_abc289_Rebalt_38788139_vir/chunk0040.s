@@ -1,0 +1,60 @@
+.LBB0_42:
+	jmp	.LBB0_10
+.LBB0_43:
+# %bb.44:
+	leaq	-64(%rbp), %rsi
+	leaq	.L.str.1(%rip), %rdi
+	movb	$0, %al
+	callq	__isoc99_scanf@PLT
+	movl	$0, -68(%rbp)
+.LBB0_45:
+	movslq	-68(%rbp), %rax
+	movsbl	-64(%rbp,%rax), %eax
+	movl	%eax, -692(%rbp)
+	movl	-692(%rbp), %eax
+	cmpl	$0, %eax
+	je	.LBB0_50
+# %bb.46:                               #   in Loop: Header=BB0_45 Depth=1
+	movslq	-68(%rbp), %rax
+	movsbl	-64(%rbp,%rax), %eax
+	movl	%eax, -696(%rbp)
+	movl	-696(%rbp), %eax
+	cmpl	$49, %eax
+	jne	.LBB0_48
+# %bb.47:                               #   in Loop: Header=BB0_45 Depth=1
+	movslq	-68(%rbp), %rax
+	movb	$48, -64(%rbp,%rax)
+	jmp	.LBB0_49
+.LBB0_48:
+	movslq	-68(%rbp), %rax
+	movb	$49, -64(%rbp,%rax)
+.LBB0_49:
+	movl	-68(%rbp), %eax
+	addl	$1, %eax
+	movl	%eax, -68(%rbp)
+	jmp	.LBB0_45
+.LBB0_50:
+	leaq	-64(%rbp), %rsi
+	leaq	.L.str.2(%rip), %rdi
+	movb	$0, %al
+	callq	printf@PLT
+	xorl	%eax, %eax
+	addq	$704, %rsp
+	popq	%rbp
+	.cfi_def_cfa %rsp, 8
+	retq
+.Lfunc_end0:
+	.size	main, .Lfunc_end0-main
+	.cfi_endproc
+	.type	_TIG_IZ_HR8T_argc,@object
+	.bss
+	.globl	_TIG_IZ_HR8T_argc
+	.p2align	2, 0x0
+_TIG_IZ_HR8T_argc:
+	.long	0
+	.size	_TIG_IZ_HR8T_argc, 4
+
+	.type	_TIG_IZ_HR8T_argv,@object
+	.globl	_TIG_IZ_HR8T_argv
+	.p2align	3, 0x0
+_TIG_IZ_HR8T_argv:

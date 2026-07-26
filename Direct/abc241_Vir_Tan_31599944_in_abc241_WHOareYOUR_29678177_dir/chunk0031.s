@@ -1,0 +1,6 @@
+.LBB0_45:
+	.cfi_def_cfa %rbp, 16
+	movq	-1944(%rbp), %rax
+	movq	%rax, -2144(%rbp)
+	movq	-2144(%rbp), %rax
+	jmpq	*%rax

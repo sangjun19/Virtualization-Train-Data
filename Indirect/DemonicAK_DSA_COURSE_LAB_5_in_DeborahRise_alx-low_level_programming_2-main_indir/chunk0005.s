@@ -1,0 +1,48 @@
+	movb	$11, _TIG_VZ_i7wr_1_main_Region_$array+201(%rip)
+	movb	$-7, _TIG_VZ_i7wr_1_main_Region_$array+202(%rip)
+	movb	$40, _TIG_VZ_i7wr_1_main_Region_$array+203(%rip)
+	movb	$2, _TIG_VZ_i7wr_1_main_Region_$array+204(%rip)
+	movb	$0, _TIG_VZ_i7wr_1_main_Region_$array+205(%rip)
+	movb	$0, _TIG_VZ_i7wr_1_main_Region_$array+206(%rip)
+	movb	$-68, _TIG_VZ_i7wr_1_main_Region_$array+207(%rip)
+	movb	$-78, _TIG_VZ_i7wr_1_main_Region_$array+208(%rip)
+	movb	$8, _TIG_VZ_i7wr_1_main_Region_$array+209(%rip)
+	movb	$0, _TIG_VZ_i7wr_1_main_Region_$array+210(%rip)
+	movb	$0, _TIG_VZ_i7wr_1_main_Region_$array+211(%rip)
+	movb	$0, _TIG_VZ_i7wr_1_main_Region_$array+212(%rip)
+	movb	$-97, _TIG_VZ_i7wr_1_main_Region_$array+213(%rip)
+	movb	$42, _TIG_VZ_i7wr_1_main_Region_$array+214(%rip)
+	movb	$-1, _TIG_VZ_i7wr_1_main_Region_$array+215(%rip)
+	movb	$-1, _TIG_VZ_i7wr_1_main_Region_$array+216(%rip)
+	movb	$-1, _TIG_VZ_i7wr_1_main_Region_$array+217(%rip)
+	movb	$-97, _TIG_VZ_i7wr_1_main_Region_$array+218(%rip)
+	movb	$37, _TIG_VZ_i7wr_1_main_Region_$array+219(%rip)
+	movb	$-1, _TIG_VZ_i7wr_1_main_Region_$array+220(%rip)
+	movb	$-1, _TIG_VZ_i7wr_1_main_Region_$array+221(%rip)
+	movb	$-1, _TIG_VZ_i7wr_1_main_Region_$array+222(%rip)
+	movb	$-97, _TIG_VZ_i7wr_1_main_Region_$array+223(%rip)
+	movb	$4, _TIG_VZ_i7wr_1_main_Region_$array+224(%rip)
+	movb	$0, _TIG_VZ_i7wr_1_main_Region_$array+225(%rip)
+	movb	$0, _TIG_VZ_i7wr_1_main_Region_$array+226(%rip)
+	movb	$0, _TIG_VZ_i7wr_1_main_Region_$array+227(%rip)
+	movb	$-3, _TIG_VZ_i7wr_1_main_Region_$array+228(%rip)
+# %bb.4:
+	leaq	.L.str(%rip), %rax
+	movq	%rax, _TIG_VZ_i7wr_1_main_Region_$strings(%rip)
+# %bb.5:
+	movq	$0, front(%rip)
+# %bb.6:
+	movq	$0, rear(%rip)
+# %bb.7:
+	jmp	.LBB0_8
+.LBB0_8:
+	jmp	.LBB0_9
+.LBB0_9:
+	movl	-4(%rbp), %eax
+	movl	%eax, _TIG_IZ_i7wr_argc(%rip)
+	movq	-16(%rbp), %rax
+	movq	%rax, _TIG_IZ_i7wr_argv(%rip)
+	movq	-24(%rbp), %rax
+	movq	%rax, _TIG_IZ_i7wr_envp(%rip)
+# %bb.10:
+	jmp	.LBB0_11

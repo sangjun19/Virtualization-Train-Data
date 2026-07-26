@@ -1,0 +1,67 @@
+	.quad	.Ltmp9
+	.quad	.Ltmp8
+	.quad	.Ltmp19
+	.quad	.Ltmp24
+	.quad	1
+	.quad	.Ltmp28
+	.quad	.Ltmp14
+	.quad	0
+	.quad	.Ltmp5
+	.quad	.Ltmp7
+	.quad	16
+	.quad	.Ltmp29
+	.quad	.Ltmp15
+	.quad	.Ltmp25
+	.quad	1
+	.quad	.Ltmp30
+	.quad	0
+	.quad	.Ltmp18
+	.quad	.Ltmp11
+	.quad	560
+	.quad	.Ltmp2
+	.quad	.Ltmp11
+	.quad	568
+	.quad	.Ltmp26
+	.quad	0
+	.quad	.Ltmp9
+	.quad	.Ltmp8
+	.quad	.Ltmp19
+	.quad	.Ltmp24
+	.quad	1
+	.quad	.Ltmp28
+	.quad	.Ltmp14
+	.quad	0
+	.quad	.Ltmp5
+	.quad	.Ltmp7
+	.quad	16
+	.quad	.Ltmp29
+	.quad	.Ltmp22
+	.quad	.Ltmp17
+	.quad	.Ltmp0
+	.quad	.Ltmp6
+	.quad	3
+	.quad	.Ltmp26
+	.quad	0
+	.quad	.Ltmp9
+	.quad	.Ltmp26
+	.quad	0
+	.quad	.Ltmp9
+	.quad	.Ltmp8
+	.quad	.Ltmp16
+	.quad	1
+	.quad	.Ltmp27
+	.quad	.Ltmp0
+	.quad	.Ltmp25
+	.quad	4294967158
+	.quad	.Ltmp25
+	.quad	4294967156
+	.quad	.Ltmp25
+	.quad	1
+	.quad	.Ltmp20
+	.size	.L__const.main._TIG_VZ_Y0ho_1_main_Region_$array_inline_7, 1584
+
+	.type	_TIG_IZ_Y0ho_argc,@object
+	.bss
+	.globl	_TIG_IZ_Y0ho_argc
+	.p2align	2, 0x0
+_TIG_IZ_Y0ho_argc:
